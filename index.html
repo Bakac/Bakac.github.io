@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Welcome to EPPL">
+	<title>Experimental Psychopathology and Psychotherapy Laboratory | CUHK</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Bebas+Neue
+&display=swap">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<script type="module">
+		import { createApp } from 'https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.esm-browser.prod.min.js'
+		import NavBar from './js/navbar.js'
+		import Home from './js/home.js'
+		import People from './js/people.js'
+		import Research from './js/research.js'
+		import Publications from './js/publications.js'
+		import Services from './js/services.js'
+
+		let urlParams = new URLSearchParams(window.location.search);
+		let page = urlParams.get('page');
+		const pages = ['home', 'people', 'research', 'publications', 'services'];
+
+		const app = createApp({
+			components: {
+				NavBar, Home, People, Research, Services, Publications
+			},
+			data() {
+				return {
+					labname: 'Experimental Psychopathology and Psychotherapy Laboratory', 
+					currentPage: pages.includes(page) ? page : 'home', 
+				}
+			}, 
+			methods: {
+				updatePage(href) {
+					let page = href.split("=")[1];
+					this.currentPage = pages.includes(page) ? page : this.currentPage;
+					history.pushState({page: this.currentPage}, null, href);
+					document.getElementById("main").scrollTo({ top: 0, behavior: 'smooth' })
+				}
+			}, 
+			created() {
+				window.onpopstate = (event) => {
+					this.currentPage = pages.includes(event.state.page) ? event.state.page : this.currentPage;
+				};
+			}
+		});
+
+		app.mount('#main');
+	</script>
+
+	<div id="main">
+		<header>
+			<component is="NavBar" @click-page="(href) => updatePage(href)"></component>
+		</header>
+
+		<Transition name="fade" mode="out-in">
+			<component :is="currentPage" @click-page="(href) => updatePage(href)"></component>
+		</Transition>
+
+		<footer>
+			<p>2022 &copy; {{labname}}</p>
+		</footer>
+	</div>
+</body>
+</html>
