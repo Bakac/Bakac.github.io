@@ -10,13 +10,15 @@ export default {
   template: `
       <main>
         <section id="home-research" class="banner">
-          <div id="home-research-banner">
-            <img src="./img/home-banner.webp" width="1920" alt="">
-          </div>
-          <div class="banner-overlay left-align wrapper-horizontal">
-            <h1>How do we process relations with others and the self?</h1>
-            <span class="home-subtitle">We are interested in the cognitive bases and social development involved in relational processing, which are important for understanding stress-related mental disorders.</span>
-            <button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=research')">Learn More</span>
+          <div id="home-research-flex" class="wrapper-horizontal flex-box align-center">
+            <div class="banner-overlay left-align flex-40">
+              <h1>How do we process relations with others and the self?</h1>
+              <span class="home-subtitle">We are interested in the cognitive bases and social development involved in relational processing, which are important for understanding trauma-related disorders.</span>
+              <button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=research')">Learn More</span>
+            </div>
+            <div id="home-research-banner" class="flex-40">
+              <img src="./img/home-banner.webp" width="1920" alt="">
+            </div>
           </div>
         </section>
 
@@ -30,13 +32,13 @@ export default {
             <div class="flex-60"><img src="./img/lab-photo.webp" width="1920" alt=""></div>
           </section>
 
-          <section id="home-services" class="wrapper-horizontal flex-box">
-            <div class="flex-60"><img src="./img/.webp" width="1920" alt=""></div>
+          <section id="home-services" class="wrapper-horizontal flex-box flex-box-reverse">
             <div class="flex-40">
               <h2>Services</h2>
-              <p>We provide different services to the community, including service model development and training workshops.</p>
+              <p>We provide a wide range of services to the community and service units, including training workshops and mental health service delivery model development.</p>
               <button class="center-align" @click.prevent="$emit('clickPage', './?page=services')">Learn More</span>
             </div>
+            <div class="flex-60"><img src="./img/service-photo.webp" width="1920" alt="" loading="lazy"></div>
           </section>
 
           <section id="contact" class="wrapper-horizontal flex-box">
