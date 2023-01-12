@@ -72,7 +72,7 @@ h3 {
 }
 
 p {
-	margin: 1rem auto;
+	margin: 0.5rem auto;
 }
 
 /* Style for Word Pasted Content */
@@ -339,7 +339,7 @@ nav div#logo div#labname {
 	opacity: 0;
 }
 
-/* Contact & Chiu */
+/* People */
 .flex-box {
 	display: flex;
 	gap: 32px;
@@ -427,7 +427,7 @@ section#members .people-card:not(:first-child) {
 section#members .people-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, 250px);
-	grid-gap: 8px;
+	grid-gap: 16px;
 	justify-content: space-around;
 }
 
@@ -443,7 +443,8 @@ section#chiu .name, section#members .name {
 }
 
 section#chiu .position, section#members .position {
-	margin: 12px 0 0 0;
+	display: block;
+	margin-bottom: 12px;
 	color: var(--color-title-3);
 	font-size: 1rem;
 	font-weight: 700;
@@ -579,6 +580,10 @@ section#gallery figure:hover .overlay {
 .max-height-300 {
 	max-height: 300px;
 	object-fit: cover;
+}
+
+.members-img {
+	padding: 0 20px;
 }
 
 /* */

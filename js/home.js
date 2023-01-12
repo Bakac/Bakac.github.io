@@ -38,7 +38,7 @@ export default {
               <p>We provide a wide range of services to the community and service units, including training workshops and mental health service delivery model development.</p>
               <button class="center-align" @click.prevent="$emit('clickPage', './?page=services')">Learn More</span>
             </div>
-            <div class="flex-60"><img src="./img/service-photo.webp" width="1920" alt="" loading="lazy"></div>
+            <div class="flex-60"><img src="./img/service-photo.jpg" width="1920" alt="" loading="lazy"></div>
           </section>
 
           <section id="contact" class="wrapper-horizontal flex-box">

@@ -4,49 +4,52 @@ export default {
   },
   data() {
     return {
+      imgpath: './img/members/',
       CD: {
         description: `Trained in applying experimental approaches to delineating the cognitive mechanisms of psychopathology, his clinical and research interests concern the impact of aversive interpersonal experience and stressful life events on mental health. His current research focuses on exploring the role of dysfunctional self-regulation (e.g., self-esteem, shame, and self-versus-other boundary) in stress-related disorders such as post-traumatic stress disorder, dissociative disorders, and borderline personality disorder.`
       },
       Staff: [
-        { name: 'Frankie Mak', img: './img/mak-frankie.jpg', position: 'Research Associate', description: 'He obtained both his Bachelor’s degree and M.Phil. degree in CUHK. He is interested in how implicit self-rejection is developed in an individual, and the cognitive and behavioural outcomes of self-rejection. With the knowledge in these areas, he wants to develop low-intensity assessment and treatment tools to help people in the general public cope with their socio-emotional issues.'}, 
-        { name: 'Harris Chung', img: './img/member-2.png', position: 'Research Assistant', description: ''},
-        { name: 'Eunice Ho', img: './img/member-1.png', position: 'Honorary Clinical Consultant', description: ''},
-        { name: 'Cathy Kwok', img: './img/member-3.png', position: 'Honorary Clinical Consultant', description: ''},
-        { name: 'Alissa Ng', img: './img/member-4.png', position: 'Honorary Research Assistant', description: ''}
+        { name: 'Frankie Mak', img: 'mak-frankie.webp', position: 'Research Associate', description: 'He obtained his Bachelor’s degree and M.Phil. degree in CUHK. He is interested in the cognitive underpinnings of reflective abilities, and the outcomes of maladaptive relational perceptions. With knowledge in these areas, he wants to develop low-intensity assessment and treatment tools to raise public awareness of socio-emotional issues.'}, 
+        { name: 'Harris Chung', img: 'chung-harris.webp', position: 'Research Assistant', description: 'Working under the supervision of Prof. Chiu, he has previously completed an undergraduate thesis investigating the relationship among self-esteem, social feedback and heart rate variability. His research focuses on the implication of physiological response in the context of social cognition.'}
+        ],
+      HonStaff: [
+        { name: 'Eunice Ho', img: 'member-1.webp', position: 'Honorary Clinical Consultant', description: ''},
+        { name: 'Cathy Kwok', img: 'member-2.webp', position: 'Honorary Clinical Consultant', description: ''},
+        { name: 'Alissa Ng', img: 'member-3.webp', position: 'Honorary Research Assistant', description: ''}
         ], 
       RPg: [
-        { name: 'Yimei Zhang', img: './img/zhang-yimei.jpeg', position: 'Ph.D. in Psychology', description: 'She is interested in how people with mental illness, such as borderline personality disorder, build up intimate relationships, and how they communicate with their intimate partners. She hopes her research can help people with mental illness develop healthy relationships in which they can perceive support and acquire improvement.'}, 
-        { name: 'Kam Hei Hui', img: './img/hui-kamhei.png', position: 'Ph.D. in Psychology', description: 'Obtaining his Bachelor’s degree in CUHK, he is passionate in knowing how people imagine their future. He hopes to boost people’s determination and confidence to pursue their goals through update of autobiographical knowledge and biofeedback.'}, 
-        { name: 'Celia Siu', img: './img/siu-celia.jpeg', position: 'M.Phil. in Psychology', description: 'She is interested in people’s relationship with the self. During undergraduate study, she studied the individual difference of people’s attitude toward an unfavourable aspect of themselves. Currently, she is studying how childhood relational trauma and perceived loneliness may contribute to self-directed violence (suicide).'}
+        { name: 'Yimei Zhang', img: 'zhang-yimei.webp', position: 'Ph.D. in Psychology', description: 'She is interested in how people with mental illness, such as borderline personality disorder, build up intimate relationships, and how they communicate with their intimate partners. She hopes her research can help people with mental illness develop healthy relationships in which they can perceive support and acquire improvement.'}, 
+        { name: 'Kam Hei Hui', img: 'hui-kamhei.webp', position: 'Ph.D. in Psychology', description: 'Obtaining his Bachelor’s degree in CUHK, he is passionate in knowing how people imagine their future. He hopes to boost people’s determination and confidence to pursue their goals through update of autobiographical knowledge and biofeedback.'}, 
+        { name: 'Celia Siu', img: 'siu-celia.webp', position: 'M.Phil. in Psychology', description: 'She is interested in people’s relationship with the self. During undergraduate study, she studied the individual difference of people’s attitude toward an unfavourable aspect of themselves. Currently, she is studying how childhood relational trauma and perceived loneliness may contribute to self-directed violence (suicide).'}
         ], 
       CP: [
-        { name: 'Bianca Chan', img: './img/member-5.png', position: 'Psy.D. in Clinical Psychology' }, 
-        { name: 'Daniel Chan', img: './img/member-6.png', position: 'Psy.D. in Clinical Psychology' }, 
-        { name: 'Jessica Chan', img: './img/member-1.png', position: 'M.S.Sc. in Clinical Psychology' }, 
-        { name: 'Celia Ho', img: './img/member-2.png', position: 'M.S.Sc. in Clinical Psychology' }, 
-        { name: 'Florence Huang', img: './img/member-3.png', position: 'M.S.Sc. in Clinical Psychology' }, 
-        { name: 'Rachel Chong', img: './img/member-4.png', position: 'M.S.Sc. in Clinical Psychology' }, 
-        { name: 'Raymond Ho', img: './img/member-5.png', position: 'M.S.Sc. in Clinical Psychology' }, 
-        { name: 'Terry Lau', img: './img/member-6.png', position: 'M.S.Sc. in Clinical Psychology' }, 
-        { name: 'Kristin Ng', img: './img/member-1.png', position: 'M.S.Sc. in Clinical Psychology' }, 
-        { name: 'Tracy Tso', img: './img/member-2.png', position: 'M.S.Sc. in Clinical Psychology' },
-        { name: 'Charmaine Tsoi', img: './img/member-3.png', position: 'M.S.Sc. in Clinical Psychology' }
+        { name: 'Bianca Chan', img: 'member-4.webp', position: 'Psy.D. in Clinical Psychology' }, 
+        { name: 'Daniel Chan', img: 'member-5.webp', position: 'Psy.D. in Clinical Psychology' }, 
+        { name: 'Jessica Chan', img: 'member-6.webp', position: 'M.S.Sc. in Clinical Psychology' }, 
+        { name: 'Celia Ho', img: 'member-7.webp', position: 'M.S.Sc. in Clinical Psychology' }, 
+        { name: 'Florence Huang', img: 'member-1.webp', position: 'M.S.Sc. in Clinical Psychology' }, 
+        { name: 'Rachel Chong', img: 'chong-rachel.webp', position: 'M.S.Sc. in Clinical Psychology' }, 
+        { name: 'Raymond Ho', img: 'ho-raymond.webp', position: 'M.S.Sc. in Clinical Psychology' }, 
+        { name: 'Terry Lau', img: 'lau-terry.webp', position: 'M.S.Sc. in Clinical Psychology' }, 
+        { name: 'Kristin Ng', img: 'ng-kristin.webp', position: 'M.S.Sc. in Clinical Psychology' }, 
+        { name: 'Tracy Tso', img: 'tso-tracy.webp', position: 'M.S.Sc. in Clinical Psychology' },
+        { name: 'Charmaine Tsoi', img: 'tsoi-charmaine.webp', position: 'M.S.Sc. in Clinical Psychology' }
 
         ],
       MA: [
-        { name: 'Emily Chan', img: './img/member-4.png', position: 'M.A. in Psychology' }, 
-        { name: 'Karly Chuang', img: './img/member-5.png', position: 'M.A. in Psychology' }, 
-        { name: 'Christine Chow', img: './img/member-6.png', position: 'M.A. in Psychology' }, 
-        { name: 'Emily Chung', img: './img/member-1.png', position: 'M.A. in Psychology' }, 
-        { name: 'Emma Lau', img: './img/member-2.png', position: 'M.A. in Psychology' }, 
-        { name: 'Vickie Lee', img: './img/member-3.png', position: 'M.A. in Psychology' }, 
-        { name: 'Wayne Lee', img: './img/member-4.png', position: 'M.A. in Psychology' }, 
-        { name: 'Elaine To', img: './img/member-5.png', position: 'M.A. in Psychology' }
+        { name: 'Emily Chan', img: 'member-2.webp', position: 'M.A. in Psychology' }, 
+        { name: 'Karly Chuang', img: 'member-3.webp', position: 'M.A. in Psychology' }, 
+        { name: 'Christine Chow', img: 'member-4.webp', position: 'M.A. in Psychology' }, 
+        { name: 'Emily Chung', img: 'member-5.webp', position: 'M.A. in Psychology' }, 
+        { name: 'Emma Lau', img: 'member-6.webp', position: 'M.A. in Psychology' }, 
+        { name: 'Vickie Lee', img: 'member-7.webp', position: 'M.A. in Psychology' }, 
+        { name: 'Wayne Lee', img: 'member-1.webp', position: 'M.A. in Psychology' }, 
+        { name: 'Elaine To', img: 'member-2.webp', position: 'M.A. in Psychology' }
         ],
       UG: [
-        { name: 'Hazel Lee', img: './img/member-6.png', position: 'B.S.Sc. in Psychology' }, 
-        { name: 'Isla Wong', img: './img/member-1.png', position: 'B.S.Sc. in Psychology' }, 
-        { name: 'Peanut Wong', img: './img/member-2.png', position: 'B.S.Sc. in Psychology' }
+        { name: 'Hazel Lee', img: 'member-3.webp', position: 'B.S.Sc. in Psychology' }, 
+        { name: 'Isla Wong', img: 'member-4.webp', position: 'B.S.Sc. in Psychology' }, 
+        { name: 'Peanut Wong', img: 'member-5.webp', position: 'B.S.Sc. in Psychology' }
         ], 
       Alumni: [{ 
         degree: 'M.Phil. in Psychology',
@@ -109,7 +112,7 @@ export default {
             <div class="title-box">Principal Investigator</div>
             <div class="flex-box">
               <div class="flex-250">
-                <img src="./img/chiu.jpg">
+                <img src="./img/members/chiu.jpg" class="members-img">
               </div>
               <div class="flex-60">
                 <span class="name">Prof. Chui-De CHIU</span>
@@ -133,7 +136,7 @@ export default {
             <div class="title-box">Staff</div>
             <div class="people-card flex-box" v-for="person in Staff">
               <div class="flex-250">
-                <img :src="person.img" width="250">
+                <img :src="imgpath + person.img" class="members-img" width="250">
               </div>
               <div class="flex-60">
                 <span class="name">{{person.name}}</span>
@@ -142,10 +145,19 @@ export default {
               </div>
             </div>
 
+            <div class="title-box">Honorary Staff</div>
+            <div class="people-grid">
+              <div class="people-grid-item" v-for="person in HonStaff">
+                <span class="name">{{person.name}}</span>
+                <span class="position">{{person.position}}</span>
+                <img :src="imgpath + person.img" class="members-img" width="250">
+              </div>
+            </div>
+
             <div class="title-box">Research-track Postgraduates</div>
             <div class="people-card flex-box" v-for="person in RPg">
               <div class="flex-250">
-                <img :src="person.img" width="250">
+                <img :src="imgpath + person.img" class="members-img" width="250">
               </div>
               <div class="flex-60">
                 <span class="name">{{person.name}}</span>
@@ -159,7 +171,7 @@ export default {
               <div class="people-grid-item" v-for="person in CP">
                 <span class="name">{{person.name}}</span>
                 <span class="position">{{person.position}}</span>
-                <img :src="person.img" width="250">
+                <img :src="imgpath + person.img" class="members-img" width="250">
               </div>
             </div>
 
@@ -168,7 +180,7 @@ export default {
               <div class="people-grid-item" v-for="person in MA">
                 <span class="name">{{person.name}}</span>
                 <span class="position">{{person.position}}</span>
-                <img :src="person.img" width="250">
+                <img :src="imgpath + person.img" class="members-img" width="250">
               </div>
             </div>
 
@@ -177,7 +189,7 @@ export default {
               <div class="people-grid-item" v-for="person in UG">
                 <span class="name">{{person.name}}</span>
                 <span class="position">{{person.position}}</span>
-                <img :src="person.img" width="250">
+                <img :src="imgpath + person.img" class="members-img" width="250">
               </div>
             </div>
 
