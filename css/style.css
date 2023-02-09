@@ -376,13 +376,15 @@ nav div#logo div#labname {
 	align-items: center;
 }
 
-section#chiu #contact-box {
-	display: grid;
-	grid-template-columns: 1rem auto;
-	align-items: center;
+.contact-box > div {
+	display: inline-block;
 }
 
-section#chiu .contact-info {
+.contact-box > div:first-child {
+	margin-right: 3rem;
+}
+
+.contact-info {
 	margin-left: 1rem;
 }
 
@@ -420,8 +422,8 @@ section#members .title-box {
 	margin: 48px 0 24px 0;
 }
 
-section#members .people-card:not(:first-child) {
-	margin-top: 16px;
+section#members .people-card {
+	margin-top: 32px;
 }
 
 section#members .people-grid {

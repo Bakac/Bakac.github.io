@@ -34,7 +34,7 @@ export default {
 
           <section id="home-services" class="wrapper-horizontal flex-box flex-box-reverse">
             <div class="flex-40">
-              <h2>Services</h2>
+              <h2>Our Services</h2>
               <p>We provide a wide range of services to the community and service units, including training workshops and mental health service delivery model development.</p>
               <button class="center-align" @click.prevent="$emit('clickPage', './?page=services')">Learn More</span>
             </div>

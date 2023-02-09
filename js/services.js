@@ -11,7 +11,7 @@ export default {
       <main>
         <section class="banner">
           <div class="banner-overlay">
-            <h1>Services</h1>
+            <h1>Our Services</h1>
           </div>
         </section>
         <section class="body-container flex-stack">

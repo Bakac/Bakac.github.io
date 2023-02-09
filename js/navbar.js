@@ -3,10 +3,12 @@ export default {
 		return {
 			links: [
 				{ title: 'Home', href: './?page=home'}, 
+				{ title: 'Ideas', href: './?page=ideas'}, 
 				{ title: 'Research', href: './?page=research'}, 
 				{ title: 'Services', href: './?page=services'}, 
 				{ title: 'Publications', href: './?page=publications'}, 
-				{ title: 'People', href: './?page=people'}, 
+				{ title: 'Team', href: './?page=people'}, 
+				{ title: 'We Need You!', href: './?page=joinus'}
 			], 
 			isShow: false
 		}

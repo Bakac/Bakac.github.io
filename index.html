@@ -28,14 +28,16 @@
 		import Research from './js/research.js'
 		import Publications from './js/publications.js'
 		import Services from './js/services.js'
+		import Ideas from './js/ideas.js'
+		import Joinus from './js/joinus.js'
 
 		let urlParams = new URLSearchParams(window.location.search);
 		let page = urlParams.get('page');
-		const pages = ['home', 'people', 'research', 'publications', 'services'];
+		const pages = ['home', 'people', 'research', 'publications', 'services', 'ideas', 'joinus'];
 
 		const app = createApp({
 			components: {
-				NavBar, Home, People, Research, Services, Publications
+				NavBar, Home, People, Research, Services, Publications, Ideas, Joinus
 			},
 			data() {
 				return {
@@ -71,7 +73,7 @@
 		</Transition>
 
 		<footer>
-			<p>2022 &copy; {{labname}}</p>
+			<p>{{new Date().getFullYear()}} &copy; {{labname}}</p>
 		</footer>
 	</div>
 </body>

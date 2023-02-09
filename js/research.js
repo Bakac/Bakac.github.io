@@ -22,7 +22,7 @@ export default {
       <main>
         <section class="banner">
           <div class="banner-overlay">
-            <h1>Research</h1>
+            <h1>Research Highlights</h1>
           </div>
         </section>
         <section class="body-container flex-stack">
