@@ -74,7 +74,7 @@ export default {
 							Room 102, Wong Foo Yuan Building<br>
 							The Chinese University of Hong Kong<br>
 							Shatin, N.T., Hong Kong SAR</p>
-							
+
 							<p>Tel: 3943-3507</p>
 						</div>
 						<div class="flex-40">
@@ -82,7 +82,6 @@ export default {
 						</div>
 					</section>
 				</section>
-			</main>
-
-			<link href="https://cdn.jsdelivr.net/npm/@splidejs/vue-splide@0.6.12/dist/css/splide.min.css" rel="stylesheet">`
+				<link href="https://cdn.jsdelivr.net/npm/@splidejs/vue-splide@0.6.12/dist/css/splide.min.css" rel="stylesheet">
+			</main>`
 }
