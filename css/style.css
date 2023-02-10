@@ -213,7 +213,7 @@ footer p {
 	letter-spacing: 0.02rem;
 }
 
-button {
+.home-btn {
 	margin-top: 20px;
 	border: 2px solid var(--color-dark-text);
 	width: 160px;
@@ -224,7 +224,7 @@ button {
 	transition: border .3s, color .3s;
 }
 
-button:hover {
+.home-btn:hover {
 	border: 2px solid var(--color-dark-text-hover);
 	color: var(--color-dark-text-hover);
 }
