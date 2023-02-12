@@ -6,6 +6,7 @@
 	--color-title-3: #2D2926; /* Black */;
 	--color-dark-text: #5F1933; /* Brown Chocolate */
 	--color-dark-text-hover: #A62C2B; /* Metallic Red */
+	--color-hightlight-text: #A62C2B; /* Metallic Red */
 	--color-select-text: #A62C2B; /* Metallic Red */
 	--color-member-name: #A62C2B; /* Metallic Red */
 	--color-service-title: #A62C2B; /* Metallic Red */
@@ -146,6 +147,10 @@ footer p {
 
 .margin-bottom-40 {
 	margin-bottom: 40px;
+}
+
+.highlight {
+	color: var(--color-hightlight-text);
 }
 
 /* banner */

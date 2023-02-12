@@ -23,7 +23,7 @@ export default {
         { name: 'Celia Siu', img: 'siu-celia.webp', position: 'M.Phil. in Psychology', description: 'She is interested in people’s relationship with the self. During undergraduate study, she studied the individual difference of people’s attitude toward an unfavourable aspect of themselves. Currently, she is studying how childhood relational trauma and perceived loneliness may contribute to self-directed violence (suicide).'}
         ], 
       CP: [
-        { name: 'Bianca Chan', img: 'member-4.webp', position: 'Psy.D. in Clinical Psychology', description: '' }, 
+        { name: 'Bianca Chan', img: 'chan-bianca.webp', position: 'Psy.D. in Clinical Psychology', description: 'She is a clinical psychologist working in the child & adolescent team of a psychiatric hospital. She is interested in working with adolescents with attachment difficulties, especially those with evolving borderline personality traits. She is currently studying the role of dissociation in adolescent mental health disorders. She is also a plant lover.' }, 
         { name: 'Daniel Chan', img: 'member-5.webp', position: 'Psy.D. in Clinical Psychology', description: '' }, 
         { name: 'Jessica Chan', img: 'member-6.webp', position: 'M.S.Sc. in Clinical Psychology', description: '' }, 
         { name: 'Celia Ho', img: 'member-7.webp', position: 'M.S.Sc. in Clinical Psychology', description: '' }, 
