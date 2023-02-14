@@ -112,7 +112,7 @@ export default {
             <div class="title-box">Principal Investigator</div>
             <div class="flex-box">
               <div class="flex-250">
-                <img src="./img/members/chiu.jpg" class="members-img">
+                <img src="./img/members/chiu.jpg" class="members-img" width="210" height="253">
               </div>
               <div class="flex-60">
                 <span class="name">Prof. Chui-De CHIU</span>
@@ -136,7 +136,7 @@ export default {
             <div class="title-box">Staff</div>
             <div class="people-card flex-box" v-for="person in Staff">
               <div class="flex-250">
-                <img :src="imgpath + person.img" class="members-img" width="250">
+                <img :src="imgpath + person.img" class="members-img" width="210" height="210" loading="lazy">
               </div>
               <div class="flex-60">
                 <span class="name">{{person.name}}</span>
@@ -153,7 +153,7 @@ export default {
             <div class="title-box">Honorary Staff</div>
             <div class="people-card flex-box" v-for="person in HonStaff">
               <div class="flex-250">
-                <img :src="imgpath + person.img" class="members-img" width="250">
+                <img :src="imgpath + person.img" class="members-img" width="210" height="210" loading="lazy">
               </div>
               <div class="flex-60">
                 <span class="name">{{person.name}}</span>
@@ -165,7 +165,7 @@ export default {
             <div class="title-box">Research-track Postgraduates</div>
             <div class="people-card flex-box" v-for="person in RPg">
               <div class="flex-250">
-                <img :src="imgpath + person.img" class="members-img" width="250">
+                <img :src="imgpath + person.img" class="members-img" width="210" height="210" loading="lazy">
               </div>
               <div class="flex-60">
                 <span class="name">{{person.name}}</span>
@@ -177,7 +177,7 @@ export default {
             <div class="title-box">Clinical-track Postgraduates</div>
             <div class="people-card flex-box" v-for="person in CP">
               <div class="flex-250">
-                <img :src="imgpath + person.img" class="members-img" width="250">
+                <img :src="imgpath + person.img" class="members-img" width="210" height="210" loading="lazy">
               </div>
               <div class="flex-60">
                 <span class="name">{{person.name}}</span>
@@ -191,14 +191,14 @@ export default {
               <div class="people-grid-item" v-for="person in MA">
                 <span class="name">{{person.name}}</span>
                 <span class="position">{{person.position}}</span>
-                <img :src="imgpath + person.img" class="members-img" width="250">
+                <img :src="imgpath + person.img" class="members-img" width="210" height="210" loading="lazy">
               </div>
             </div>
 
             <div class="title-box">Undergraduate Thesis Students</div>
             <div class="people-card flex-box" v-for="person in UG">
               <div class="flex-250">
-                <img :src="imgpath + person.img" class="members-img" width="250">
+                <img :src="imgpath + person.img" class="members-img" width="210" height="210" loading="lazy">
               </div>
               <div class="flex-60">
                 <span class="name">{{person.name}}</span>

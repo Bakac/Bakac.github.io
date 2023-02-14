@@ -7,6 +7,8 @@
 	--color-dark-text: #5F1933; /* Brown Chocolate */
 	--color-dark-text-hover: #A62C2B; /* Metallic Red */
 	--color-hightlight-text: #A62C2B; /* Metallic Red */
+	--color-link-text: #A62C2B; /* Metallic Red */
+	--color-link-text-hover: #5F1933; /* Brown Chocolate */
 	--color-select-text: #A62C2B; /* Metallic Red */
 	--color-member-name: #A62C2B; /* Metallic Red */
 	--color-service-title: #A62C2B; /* Metallic Red */
@@ -178,11 +180,12 @@ footer p {
 	letter-spacing: -.04rem;
 	font-size: 2rem;
 	line-height: 1;
+	margin-bottom: 16px;
 }
 
 #home-research.banner span {
-	margin-top: 16px;
 	color: var(--color-dark-text);
+	margin-bottom: 16px;
 }
 
 .banner img {
@@ -191,7 +194,7 @@ footer p {
 	left: 78%;
 	transform: translate(-78%, -50%);
 	max-width: 30%; */
-	max-height: 300px;
+	max-height: 180px;
 	object-fit: contain;
 }
 
@@ -219,9 +222,8 @@ footer p {
 }
 
 .home-btn {
-	margin-top: 20px;
 	border: 2px solid var(--color-dark-text);
-	width: 160px;
+	width: 176px;
 	height: 40px;
 	color: var(--color-dark-text);
 	text-align: center;
@@ -229,13 +231,40 @@ footer p {
 	transition: border .3s, color .3s;
 }
 
-.home-btn:hover {
+p ~ .home-btn {
+	margin-top: 16px;
+}
+
+.home-btn:hover, .idea-btn:hover {
 	border: 2px solid var(--color-dark-text-hover);
 	color: var(--color-dark-text-hover);
 }
 
+.idea-btn {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 48px 0;
+	border: 2px solid var(--color-dark-text);
+	width: 240px;
+	height: 40px;
+	color: var(--color-dark-text);
+	text-align: center;
+	border-radius: 9999px;
+	transition: border .3s, color .3s;
+}
+
 .left-align > h1, .left-align > span {
 	text-align: left;
+}
+
+.home-smalltitle {
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 700;
+	border: 2px solid var(--color-dark-text);
+  flex-grow: 0;
+  padding: 0px 3px;
+  letter-spacing: .2px;
 }
 
 /* navbar */
@@ -265,7 +294,7 @@ nav div#logo div#labname {
 	letter-spacing: 0.0125rem;
 }
 
-@media only screen and (max-width: 1023.98px) {
+@media only screen and (max-width: 1199.98px) {
 	nav ul {
 		position: absolute;
 		width: 100vw;
@@ -561,7 +590,7 @@ section#gallery figure:hover .overlay {
 	width: 100%;
 }
 
-#project1 {
+#project1, #joinus-participant, #pub1 {
 	margin-top: -96px;
 }
 
@@ -590,7 +619,23 @@ section#gallery figure:hover .overlay {
 }
 
 .members-img {
-	padding: 0 20px;
+	margin: 0 20px;
+}
+
+.joinus-recruit {
+	display: block;
+	padding: 10px;
+	margin-top: 12px;
+	border: 2px solid var(--color-link-text);
+	border-radius: 6px;
+	color: var(--color-link-text);
+	text-decoration: none;
+	transition: border .3s, color .3s;
+}
+
+.joinus-recruit:hover {
+	border-color: var(--color-link-text-hover);
+	color: var(--color-link-text-hover);
 }
 
 /* */
@@ -643,6 +688,21 @@ section#gallery figure:hover .overlay {
 		width: 768px;
 	}
 
+	.max-height-300 {
+		max-height: 300px;
+	}
+
+	.banner img {
+    max-height: 300px;
+    object-fit: contain;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.wrapper-horizontal {
+		width: 960px;
+	}
+
 	nav ul {
 		list-style-type: none;
 		text-align: right;
@@ -685,16 +745,6 @@ section#gallery figure:hover .overlay {
 	nav .hamburger {
 		visibility: hidden;
 		position: absolute;
-	}
-
-	.max-height-300 {
-		max-height: 300px;
-	}
-}
-
-@media only screen and (min-width: 1200px) {
-	.wrapper-horizontal {
-		width: 960px;
 	}
 }
 

@@ -18,12 +18,13 @@ export default {
 				<section id="home-research" class="banner">
 					<div id="home-research-flex" class="wrapper-horizontal flex-box align-center">
 						<div class="banner-overlay left-align flex-40">
-							<h1>How do we process relations with others and the self?</h1>
-							<span class="home-subtitle">We are interested in the cognitive bases and social development involved in relational processing, which are important for understanding trauma-related disorders.</span>
-							<button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=research')">Learn More</span>
+							<span><span class="home-smalltitle">BIG IDEAS</span></span>
+							<h1>Understanding the making of the self and its relation to mental disorders</h1>
+							<span class="home-subtitle">People learn who they are through feedback from others, and the resulting self-representations guide their social functioning. Through translational research, we examine how maladaptive self-representations develop and affect people with trauma-related disorders, and how they can be properly treated.</span>
+							<button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=ideas')">Learn More →</span>
 						</div>
 						<div id="home-research-banner" class="flex-40">
-							<img src="./img/home-banner.webp" width="1920" alt="">
+							<img src="./img/home-banner-self.webp" width="1920" alt="">
 						</div>
 					</div>
 				</section>
@@ -33,7 +34,7 @@ export default {
 						<div class="flex-40">
 							<h2>Our Team</h2>
 							<p>Our laboratory includes research staff, research students, clinical students, and clinical psychologists who are now working in different settings.</p>
-							<button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=people')">Meet The Team</span>
+							<button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=people')">Meet Our Team →</span>
 						</div>
 						<div class="flex-60">
 							<splide :options="{ type: 'fade', rewind: true, speed: 2000, arrows: false, drag: false, autoplay: true, interval: 4000, pauseOnHover: false, pauseOnFocus: false, lazyLoad: 'sequential' }" aria-label="Services">
@@ -50,7 +51,7 @@ export default {
 						<div class="flex-40">
 							<h2>Our Services</h2>
 							<p>We provide a wide range of services to the community and service units, including training workshops and mental health service delivery model development.</p>
-							<button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=services')">Learn More</span>
+							<button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=services')">Learn More →</span>
 						</div>
 						<div class="flex-60">
 							<splide :options="{ type: 'fade', rewind: true, speed: 2000, arrows: false, drag: false, autoplay: true, interval: 4000, pauseOnHover: false, pauseOnFocus: false, lazyLoad: 'sequential' }" aria-label="Services">

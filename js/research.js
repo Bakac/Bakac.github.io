@@ -42,7 +42,7 @@ export default {
               </div>
 
               <div class="flex-40">
-                <img class="img-center max-height-300" src="./img/project-1.png" width="1920">
+                <img class="img-center max-height-300" src="./img/project-1.webp" width="1920">
               </div>
             </div>
           </section>
@@ -63,7 +63,7 @@ export default {
               </div>
 
               <div class="flex-40">
-                <img class="img-center max-height-300" src="./img/project-2.png" width="1920">
+                <img class="img-center max-height-300" src="./img/project-2.webp" width="1920">
               </div>
             </div>
           </section>
@@ -84,7 +84,7 @@ export default {
               </div>
 
               <div class="flex-40">
-                <img class="img-center max-height-300" src="./img/project-3.png" width="1920">
+                <img class="img-center max-height-300" src="./img/project-3.webp" width="1920">
               </div>
             </div>
           </section>

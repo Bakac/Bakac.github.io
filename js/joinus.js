@@ -30,13 +30,13 @@ export default {
             <div class="card wrapper-horizontal flex-box">
               <div class="flex-60">
                 <h2>Participants</h2>
-                <p>We are now recruiting participants for the following projects:</p>
-                <p><b>Recruiting female participants with Borderline Personality Disorder or related traits</b><br>Details: <a href="http://esurvey.psy.cuhk.edu.hk/jfe/form/SV_9NdyWrZvdWZmLYy" target="_blank">Click me!</a></p>
-                <p><b>Join a Parent-Child study, Child aged 8-12, 3hr experiment with $350 reward ❗️❕</b><br>Details: <a href="https://forms.gle/5uC4r9tpU1S67h2C8" target="_blank">Click me!</a></p>
+                <p>We are now recruiting participants for the following studies:</p>
+                <a class="joinus-recruit" href="http://esurvey.psy.cuhk.edu.hk/jfe/form/SV_9NdyWrZvdWZmLYy" target="_blank">⭐⭐⭐誠邀確診邊緣性人格障礙或有邊緣性人格特質的女性參與心理健康研究（歡迎校外人士參與）☀️☀️☀️</a>
+                <a class="joinus-recruit" href="https://forms.gle/5uC4r9tpU1S67h2C8" target="_blank">👩👧👦 誠邀母親與8-12歲小朋友參與親子研究 3小時實驗 $350報酬❗️❕</a>
               </div>
 
               <div class="flex-40">
-                <img class="img-center max-height-300" src="./img/project-1.png" width="1920">
+                <img class="img-center max-height-300" src="./img/joinus-participant.webp" width="1920">
               </div>
             </div>
           </section>
@@ -50,7 +50,7 @@ export default {
               </div>
 
               <div class="flex-40">
-                <img class="img-center max-height-300" src="./img/project-1.png" width="1920">
+                <img class="img-center max-height-300" src="./img/joinus-volunteer.webp" width="1920">
               </div>
             </div>
           </section>
@@ -64,7 +64,7 @@ export default {
               </div>
 
               <div class="flex-40">
-                <img class="img-center max-height-300" src="./img/project-1.png" width="1920">
+                <img class="img-center max-height-300" src="./img/joinus-labmate.webp" width="1920">
               </div>
             </div>
           </section>
@@ -77,7 +77,7 @@ export default {
               </div>
 
               <div class="flex-40">
-                <img class="img-center max-height-300" src="./img/project-1.png" width="1920">
+                <img class="img-center max-height-300" src="./img/joinus-collaboration.webp" width="1920">
               </div>
             </div>
           </section>
