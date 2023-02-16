@@ -76,7 +76,7 @@ export default {
 							The Chinese University of Hong Kong<br>
 							Shatin, N.T., Hong Kong SAR</p>
 
-							<p>Tel: 3943-3507</p>
+							<p>Tel: (+852) 3943-3507</p>
 						</div>
 						<div class="flex-40">
 							<img src="./img/cuhk-map.webp" width="1920" alt="" loading="lazy">

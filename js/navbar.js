@@ -4,7 +4,6 @@ export default {
 			links: [
 				{ title: 'Home', href: './?page=home'}, 
 				{ title: 'Ideas', href: './?page=ideas'}, 
-				{ title: 'Research', href: './?page=research'}, 
 				{ title: 'Services', href: './?page=services'}, 
 				{ title: 'Publications', href: './?page=publications'}, 
 				{ title: 'Team', href: './?page=people'}, 

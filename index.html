@@ -25,19 +25,21 @@
 		import NavBar from './js/navbar.js'
 		import Home from './js/home.js'
 		import People from './js/people.js'
-		import Research from './js/research.js'
 		import Publications from './js/publications.js'
 		import Services from './js/services.js'
 		import Ideas from './js/ideas.js'
 		import Joinus from './js/joinus.js'
+		import Project1 from './js/project-1.js'
+		import Project2 from './js/project-2.js'
+		import Project3 from './js/project-3.js'
 
 		let urlParams = new URLSearchParams(window.location.search);
 		let page = urlParams.get('page');
-		const pages = ['home', 'people', 'research', 'publications', 'services', 'ideas', 'joinus'];
+		const pages = ['home', 'people', 'publications', 'services', 'ideas', 'joinus', 'project-1', 'project-2', 'project-3'];
 
 		const app = createApp({
 			components: {
-				NavBar, Home, People, Research, Services, Publications, Ideas, Joinus
+				NavBar, Home, People, Services, Publications, Ideas, Joinus, Project1, Project2, Project3
 			},
 			data() {
 				return {

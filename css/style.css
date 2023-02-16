@@ -151,8 +151,22 @@ footer p {
 	margin-bottom: 40px;
 }
 
+.margin-top-64 {
+	margin-top: 64px;
+}
+
+.margin-top-32 {
+	margin-top: 32px;
+}
+
 .highlight {
 	color: var(--color-hightlight-text);
+}
+
+.left-border {
+	border-left: 2px solid var(--color-hightlight-text);
+	margin-left: 0px;
+	padding-left: 16px;
 }
 
 /* banner */
@@ -567,6 +581,7 @@ section#gallery figure:hover .overlay {
 
 .toggleBtn {
 	cursor: pointer;
+	display: inline-block;
 }
 
 .toggle-icon {
@@ -580,6 +595,11 @@ section#gallery figure:hover .overlay {
 	transform: rotate(90deg);
 }
 
+.toggle-icon.toggle-icon-right {
+	margin-left: 8px;
+	margin-right: 0;
+}
+
 .card {
 	margin: 96px auto;
 	overflow: auto;
@@ -590,7 +610,7 @@ section#gallery figure:hover .overlay {
 	width: 100%;
 }
 
-#project1, #joinus-participant, #pub1 {
+#project, #joinus-participant, #pub1 {
 	margin-top: -96px;
 }
 
@@ -745,6 +765,12 @@ section#gallery figure:hover .overlay {
 	nav .hamburger {
 		visibility: hidden;
 		position: absolute;
+	}
+
+	.left-border {
+		border-left: 4px solid var(--color-hightlight-text);
+		margin-left: 32px;
+		padding-left: 32px;
 	}
 }
 
