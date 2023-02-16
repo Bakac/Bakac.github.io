@@ -581,6 +581,11 @@ section#gallery figure:hover .overlay {
 
 .toggleBtn {
 	cursor: pointer;
+	display: block;
+}
+
+.inlineBtn {
+	cursor: pointer;
 	display: inline-block;
 }
 
