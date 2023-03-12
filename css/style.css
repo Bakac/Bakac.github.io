@@ -637,7 +637,7 @@ section#gallery figure:hover .overlay {
 	margin-left: 32px;
 }
 
-#project, #joinus-participant, #pub1 {
+#project, #joinus-participant, #pub1, .first-box {
 	margin-top: -96px;
 }
 

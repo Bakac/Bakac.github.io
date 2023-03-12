@@ -42,14 +42,18 @@
 		import Project1 from './js/project-1.js'
 		import Project2 from './js/project-2.js'
 		import Project3 from './js/project-3.js'
+		import Assessments from './js/assessments.js'
+		import AssessmentStress from './js/assessment-stress.js'
+		import AssessmentChild from './js/assessment-child.js'
+		import AssessmentParent from './js/assessment-parent.js'
 
 		let urlParams = new URLSearchParams(window.location.search);
 		let page = urlParams.get('page');
-		const pages = ['home', 'people', 'publications', 'services', 'ideas', 'joinus', 'project-1', 'project-2', 'project-3'];
+		const pages = ['home', 'people', 'publications', 'services', 'ideas', 'joinus', 'project-1', 'project-2', 'project-3', 'assessments', 'assessment-stress', 'assessment-child', 'assessment-parent'];
 
 		const app = createApp({
 			components: {
-				NavBar, Home, People, Services, Publications, Ideas, Joinus, Project1, Project2, Project3
+				NavBar, Home, People, Services, Publications, Ideas, Joinus, Project1, Project2, Project3, Assessments, AssessmentStress, AssessmentChild, AssessmentParent
 			},
 			data() {
 				return {

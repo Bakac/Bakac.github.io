@@ -5,6 +5,7 @@ export default {
 				{ title: 'Home', href: './?page=home'}, 
 				{ title: 'Team', href: './?page=people'}, 
 				{ title: 'Ideas', href: './?page=ideas'}, 
+				{ title: 'Assessments', href: './?page=assessments'}, 
 				{ title: 'Services', href: './?page=services'}, 
 				{ title: 'Publications', href: './?page=publications'}, 
 				{ title: 'We Need You!', href: './?page=joinus'}
