@@ -3,10 +3,10 @@ export default {
 		return {
 			links: [
 				{ title: 'Home', href: './?page=home'}, 
+				{ title: 'Team', href: './?page=people'}, 
 				{ title: 'Ideas', href: './?page=ideas'}, 
 				{ title: 'Services', href: './?page=services'}, 
 				{ title: 'Publications', href: './?page=publications'}, 
-				{ title: 'Team', href: './?page=people'}, 
 				{ title: 'We Need You!', href: './?page=joinus'}
 			], 
 			isShow: false
@@ -27,7 +27,7 @@ export default {
 					<div id="labname"><span>Experimental Psychopathology and Psychotherapy Laboratory</span></div>
 				</div>
 				<ul :class="{opened: isShow}">
-					<li v-for="link in links" :class="{dropdown: link.href == '#'}">
+					<li v-for="link in links" :class="{dropdown: link.href == '#', emphasis: link.title == 'We Need You!'}">
 						<a :href="link.href" @click.prevent="$emit('clickPage', link.href); hideNav()">{{link.title}} <i v-if="link.href == '#'" class="fa fa-caret-down"></i></a>
 						<div class="dropdown-content" v-if="link.href == '#'">
 							<a v-for="child in link.children" :href="child.href" @click.prevent="$emit('clickPage', child.href)">{{child.title}}</a>

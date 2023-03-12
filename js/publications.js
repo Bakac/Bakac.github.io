@@ -1,7 +1,7 @@
 export default {
-    props: {
-		labname: String
-    },
+	created () {
+		document.title = 'Publications | Experimental Psychopathology and Psychotherapy Laboratory | CUHK'
+	},
     data() {
 		return {
 		    
