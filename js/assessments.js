@@ -62,8 +62,7 @@ export default {
 							</div>
 
 							<div class="flex-40">
-								<img class="img-center max-height-300" src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Solid_white.png" width="300">
-								[A graphics showing a child representing the self in mind]
+								<img class="img-center max-height-300" src="./img/assessment-child.webp" width="516">
 							</div>
 						</div>
 					</div>
@@ -79,8 +78,7 @@ export default {
 							</div>
 
 							<div class="flex-40">
-								<img class="img-center max-height-300" src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Solid_white.png" width="300">
-								[A graphics showing a parent with stress when playing with child]
+								<img class="img-center max-height-300" src="./img/assessment-parent.webp" width="516">
 							</div>
 						</div>
 					</div>
