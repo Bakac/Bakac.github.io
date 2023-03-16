@@ -41,7 +41,7 @@ export default {
 						<div class="wrapper-horizontal flex-box">
 							<div class="flex-60">
 								<h2>Assessing your stress response type</h2>
-								<p>The symptoms we experience after a stressful event vary from person to person. Some people will recall the event over and over again, while others will frequently re-experience the event. What is your stress response type?</p>
+								<p>The symptoms we experience after a stressful event vary from person to person. Some people will think of the event over and over again, while others will frequently re-experience the event. What is your stress response type?</p>
 								<button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=assessment-stress')">Learn more →</span>
 							</div>
 
@@ -58,7 +58,7 @@ export default {
 						<div class="wrapper-horizontal flex-box flex-box-reverse">
 							<div class="flex-60">
 								<h2>Assessing child's self-representation</h2>
-								<p>Many mental abilities are built upon one's understanding of the self. Children are in a critical period of the development of the self. How do their self-representations affect their organization of social information?</p>
+								<p>Many mental abilities are built upon one's understanding of the self. Children are in a critical period of the development of the self. How do their self-representations affect their organization of social information and related social abilities?</p>
 								<button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=assessment-child')">Learn more →</span>
 							</div>
 
@@ -75,7 +75,7 @@ export default {
 						<div class="wrapper-horizontal flex-box">
 							<div class="flex-60">
 								<h2>Assessing parents' response to child's stress</h2>
-								<p>Parents XXX</p>
+								<p>When parents see their children in stress, they may respond in different ways. For example, they may minimize the stress, focusing on problem-solving, or focusing on children emotions. How do these tendencies affect children's social development?</p>
 								<button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=assessment-parent')">Learn more →</span>
 							</div>
 
