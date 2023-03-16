@@ -36,7 +36,7 @@ export default {
               </div>
 
               <div class="flex-40">
-                <img class="img-center max-height-300" src="./img/joinus-participant.webp" width="1920">
+                <img class="img-center max-height-300" src="./img/joinus-participant.webp" width="516">
               </div>
             </div>
           </section>
@@ -50,7 +50,7 @@ export default {
               </div>
 
               <div class="flex-40">
-                <img class="img-center max-height-300" src="./img/joinus-volunteer.webp" width="1920">
+                <img class="img-center max-height-300" src="./img/joinus-volunteer.webp" width="516">
               </div>
             </div>
           </section>
@@ -64,7 +64,7 @@ export default {
               </div>
 
               <div class="flex-40">
-                <img class="img-center max-height-300" src="./img/joinus-labmate.webp" width="1920">
+                <img class="img-center max-height-300" src="./img/joinus-labmate.webp" width="516">
               </div>
             </div>
           </section>
@@ -77,7 +77,7 @@ export default {
               </div>
 
               <div class="flex-40">
-                <img class="img-center max-height-300" src="./img/joinus-collaboration.webp" width="1920">
+                <img class="img-center max-height-300" src="./img/joinus-collaboration.webp" width="516">
               </div>
             </div>
           </section>

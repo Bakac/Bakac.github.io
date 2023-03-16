@@ -46,8 +46,7 @@ export default {
 							</div>
 
 							<div class="flex-40">
-								<img class="img-center max-height-300" src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Solid_white.png" width="300">
-								[A graphics showing a person with stress]
+								<img class="img-center max-height-300" src="./img/assessment-stress.webp" width="516">
 							</div>
 						</div>
 					</div>
