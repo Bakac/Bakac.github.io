@@ -24,7 +24,9 @@ export default {
 
 				<div class="margin-top-64">
 			    	<h2>Reactions to stressful events and self-representation</h2>
-			    	<p>(Under construction...)<br><br></p>
+			    	<p>Imagine that you have lost your close friend in an accident. This would normally induce great emotional reactions. Being the person who witnessed the accident, some people would often have the experience of the accident popping up in the mind. The experience is often vivid and detailed, as if they were in the event again. Some people would think of the event all day long, such as its causes and consequences. There are also people who have both experiences, and people who would recover from the event in a short time.<br></p>
+
+			    	<p>TThe reactions to stressful events such as the above can vary greatly across people. We postulate that the type of reactions is related to their underlying self-representation, which operates on two memory systems. <br><br><br></p>
 
 
 			    	<p>[Talk about two types of memories, and frame them as source memory and VSPT. Talk about shame-guilt, self-reassurance, and responsiveness in close relationship. Talk about stress-related disorders. ]</p>
