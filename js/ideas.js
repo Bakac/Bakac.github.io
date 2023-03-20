@@ -25,14 +25,14 @@ export default {
 				<h2>Our approaches</h2>
 		    	<p>Gaining insights from clinical practice about the underlying structure of sociocognitive functioning described above, we experiment with them in both clinical and non-clinical populations. We adopt a combination of methods to capture responses at different levels, which includes physiological measures, behavioral tests, observations, and introspective reports. Below shows our research framework and examples of relevant topics and phenomena that we are interested in:</p>
 		    	<div style="overflow: auto"><img src="./img/framework.webp" width="1920" style="margin: 3rem 0; min-width: 484px"></div>
-		    	<p>We strive to inform clinical case formulation with knowledge about the pathways underlying their dysfunctions. Driven by such value, we not only do studies in the laboratory, but also cooperate with service-providers in the healthcare setting in the hope of improving the existing practice for the clinical populations.</p>
+		    	<p class="margin-bottom-40">We strive to inform clinical case formulation with knowledge about the pathways underlying their dysfunctions. Driven by such value, we not only do studies in the laboratory, but also cooperate with service-providers in the healthcare setting in the hope of improving the existing practice for the clinical populations.</p>
 
-		    	<div class="margin-top-64 margin-bottom-40">
+		    	<!-- <div class="margin-top-64 margin-bottom-40">
 			    	<h3>Research Highlights</h3>
 			    	<h3 class="toggleBtn highlight" @click.prevent="$emit('clickPage', './?page=project-1')"><i class="fa fa-chevron-right toggle-icon"></i>Flexible Perspective Shifting in Empathy and Self-Empathy</h3>
 			    	<h3 class="toggleBtn highlight" @click.prevent="$emit('clickPage', './?page=project-2')"><i class="fa fa-chevron-right toggle-icon"></i>Distorted Self-Referential Memory in Trauma-Related Disorders</h3>
 			    	<h3 class="toggleBtn highlight" @click.prevent="$emit('clickPage', './?page=project-3')"><i class="fa fa-chevron-right toggle-icon"></i>Biased Self-Evaluation in Trauma-Related Disorders</h3>
-		    	</div>
+		    	</div> -->
 		    </section>
 	    </section>
     </main>`

@@ -42,7 +42,7 @@ export default {
 						<div class="card">
 							<div class="wrapper-horizontal flex-box">
 								<div class="flex-40">
-									<span class="toggleBtn highlight" @click.prevent="$emit('clickPage', './?page=ideas')"><i class="fa fa-chevron-left toggle-icon"></i>Back</span>
+									<span class="toggleBtn highlight" @click.prevent="$emit('clickPage', './?page=assessment-stress')"><i class="fa fa-chevron-left toggle-icon"></i>Back</span>
 								</div>
 							</div>
 
