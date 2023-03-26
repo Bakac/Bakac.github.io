@@ -15,7 +15,7 @@ export default {
 		    </div>
 	    </section>
 	    <section class="body-container">
-		    <section class="wrapper-horizontal">
+		    <article class="wrapper-horizontal">
 							<div class="flex-box">
 								<div class="flex-40">
 									<span class="toggleBtn highlight" @click.prevent="$emit('clickPage', './?page=assessments')"><i class="fa fa-chevron-left toggle-icon"></i>Back</span>
@@ -30,7 +30,7 @@ export default {
 
 			    	<p style="text-align: center">[finally, two buttons: one asks them to find our CP; one asks them to come to the lab to join our study]</p>
 			    </div>
-		    </section>
+		    </article>
 	    </section>
     </main>`
 }

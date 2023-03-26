@@ -117,7 +117,7 @@ export default {
                 <span class="name">Prof. Chui-De CHIU</span>
                 <span class="position">{{CD.position}}</span>
 
-                <p><a href="https://www.researchgate.net/profile/Chui-De-Chiu" target="_blank">ResearchGate</a> | 
+                <p style="margin-bottom: 8px"><a href="https://www.researchgate.net/profile/Chui-De-Chiu" target="_blank">ResearchGate</a> | 
                 <a href="https://orcid.org/0000-0002-6159-8531" target="_blank">ORCID</a> | 
                 <a href="https://scholar.google.com.hk/citations?user=Bug4OBUAAAAJ" target="_blank">Google Scholar</a></p>
 
@@ -211,7 +211,7 @@ export default {
 
             <div class="title-box">Alumni</div>
             <div class="toggle-section" v-for="degree in Alumni">
-              <h3 class="toggleBtn" @click="toggleTable($event)"><i class="fa fa-chevron-right toggle-icon"></i>{{degree.degree}}</h3>
+              <p class="toggleBtn" @click="toggleTable($event)"><i class="fa fa-chevron-right toggle-icon"></i>{{degree.degree}}</p>
               <div class="toggle-box">
                 <table class="alumni-table">
                   <colgroup>
@@ -235,7 +235,7 @@ export default {
             </div>
 
             <div class="toggle-section">
-              <h3 class="toggleBtn" @click="toggleTable($event)"><i class="fa fa-chevron-right toggle-icon"></i>Other student helpers</h3>
+              <p class="toggleBtn" @click="toggleTable($event)"><i class="fa fa-chevron-right toggle-icon"></i>Other student helpers</p>
               <div class="toggle-box">
                 (Under construction...)
               </div>

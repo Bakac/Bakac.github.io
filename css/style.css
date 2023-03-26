@@ -3,7 +3,7 @@
 	--color-text: #6E6259; /* Warm Gray */
 	--color-title-1: #2D2926; /* Black */
 	--color-title-2: #A62C2B; /* Metallic Red */
-	--color-title-3: #2D2926; /* Black */;
+	--color-title-3: #A62C2B; /* Metallic Red */
 	--color-dark-text: #5F1933; /* Brown Chocolate */
 	--color-dark-text-hover: #A62C2B; /* Metallic Red */
 	--color-hightlight-text: #A62C2B; /* Metallic Red */
@@ -12,7 +12,6 @@
 	--color-select-text: #A62C2B; /* Metallic Red */
 	--color-member-name: #A62C2B; /* Metallic Red */
 	--color-service-title: #A62C2B; /* Metallic Red */
-	--color-publication-title: #A62C2B; /* Metallic Red */
 	--color-banner-main-background: #F08F90; /* Ikkonzome (Pink) */
 	--color-banner-background: #EEEEEE;
 	--color-banner-pale-background: #FFF5EE; /* Seashell */
@@ -23,6 +22,10 @@
 
 @font-face {
 	font-display: swap;
+}
+
+[v-cloak] {
+  display: none;
 }
 
 /* Border-box Fix */
@@ -74,32 +77,39 @@ a {
 
 /* Customised reset */
 
+h2, h3, h4, h5, h6 {
+  margin-top: 2.5em;
+  margin-bottom: 0.75em;
+}
+
+h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
+  margin-top: 0;
+}
+
+h2 + h3 {
+	margin-top: 2em;
+}
+
 h2 {
 	font-size: 1.5rem;
 	color: var(--color-title-2);
 }
 
 h3 {
-	font-size: 1rem;
+	font-size: 1.25rem;
 	color: var(--color-title-3);
 }
 
 p {
-	margin: 0.5rem auto;
+	margin: 0 0 0.75em;
 }
 
-/* Style for Word Pasted Content */
-
-strong {
-	font-weight: 700;
-	font-size: 1.2rem;
-	color: var(--color-publication-title);
+p:last-child {
+	margin: 0;
 }
 
-u {
-	text-decoration: none;
-	font-weight: 700;
-	color: var(--color-title-2);  
+article p {
+	margin-bottom: 1.125em;
 }
 
 /* Structure */
@@ -134,17 +144,13 @@ main {
 }
 
 footer {
-	padding: 0 48px;
+	padding: 32px 48px;
 	margin-left: auto;
 	text-align: right;
 }
 
-footer p {
-	margin: 32px 0;
-}
-
 .body-container {
-	margin: 96px 0 0 0;
+	margin: 96px 0 48px 0;
 }
 
 .wrapper-horizontal {
@@ -293,6 +299,21 @@ p ~ .home-btn {
 	flex-grow: 0;
 	padding: 0px 3px;
 	letter-spacing: .2px;
+}
+
+.additional-info {
+	border: 2px solid var(--color-hightlight-text);
+	border-radius: 6px;
+	padding: 16px;
+}
+
+.additional-info .additional-title {
+	font-weight: 700;
+	color: var(--color-hightlight-text);
+}
+
+.additional-info > p {
+	margin-bottom: 0.2em;
 }
 
 /* navbar */
@@ -511,8 +532,8 @@ section#chiu .name, section#members .name {
 
 section#chiu .position, section#members .position {
 	display: block;
-	margin-bottom: 12px;
-	color: var(--color-title-3);
+	margin-bottom: 0.5rem;
+	color: var(--color-title-1);
 	font-size: 1rem;
 	font-weight: 700;
 }
@@ -597,6 +618,9 @@ section#gallery figure:hover .overlay {
 }
 
 .toggleBtn {
+	font-weight: 700;
+	color: var(--color-title-1);
+	margin-bottom: 0;
 	cursor: pointer;
 	display: block;
 }

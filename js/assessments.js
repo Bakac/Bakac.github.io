@@ -1,16 +1,6 @@
-import { Splide, SplideSlide } from './vuesplide.js'
-
 export default {
-	components: {
-		Splide, SplideSlide
-	},
 	created () {
 		document.title = 'Assessments | Experimental Psychopathology and Psychotherapy Laboratory | CUHK'
-	},
-	mounted () {
-		let slide = this.$refs.slide.splide.Components.Slides.getAt(0).slide;
-	    let newHeight = slide.querySelector(".slide-container").scrollHeight;
-	    slide.parentElement.style.height = newHeight + 'px';
 	},
 	data() {
 		return {
