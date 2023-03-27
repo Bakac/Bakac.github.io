@@ -24,12 +24,16 @@ export default {
 
 				<div class="margin-top-64">
 			    	<h2>Self-representation assessment for children</h2>
-			    	<p>(Under construction...)<br><br></p>
+			    	<p>[Talk about the current focus of assessment is neuropsychological assessment. Self-representation (?) assessment is a new and advanced area, and results have found that the concerned ability may relate specific brain areas; cognitive and emotional empathy]</p>
 
-			    	
-			    	<p>[Talk about the current focus of assessment is neuropsychological assessment. Self-representation (?) assessment is a new and advanced area, and results have found that the concerned ability may relate specific brain areas; cognitive and emotional empathy? Talk about CDES and Roberts-2]<br><br></p>
+			    	<h2>How to measure?</h2>
+			    	<p>[Talk about CDES and Roberts-2]</p>
 
-
+					<p class="additional-info">
+			    		<p class="additional-title">💡 Further Reading</p>
+			    		<p>Description</p>
+			    		<p class="toggleBtn highlight" @click.prevent="$emit('clickPage', '#')"><i class="fa fa-chevron-right toggle-icon"></i>Affect-centric narrative coherency in child's storytelling [under construction]</p>
+			    	</p>
 
 			    	<p style="text-align: center">[finally, two buttons: one asks them to find our CP; one asks them to come to the lab to join our study]</p>
 			    </div>
