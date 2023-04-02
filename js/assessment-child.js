@@ -1,6 +1,6 @@
 export default {
 	created () {
-		document.title = 'Assessing Stress Reaction Type | Experimental Psychopathology and Psychotherapy Laboratory | CUHK'
+		document.title = `Assessing Child's Self-Representation | Experimental Psychopathology and Psychotherapy Laboratory | CUHK`
 	},
     data() {
 		return {
