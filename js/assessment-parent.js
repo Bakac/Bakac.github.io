@@ -9,11 +9,6 @@ export default {
     },
     template: `
     <main>
-	    <section class="banner">
-	    	<div class="banner-overlay">
-		    	<h1>Parent's reactions to child's stress</h1>
-		    </div>
-	    </section>
 	    <section class="body-container">
 		    <article class="wrapper-horizontal">
 							<div class="flex-box">

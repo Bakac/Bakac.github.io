@@ -1,6 +1,6 @@
 :root {
 	--color-background: #FFFFFF; /* White */
-	--color-text: #6E6259; /* Warm Gray */
+	--color-text: #4D4E53; /* Col Grey 11 */
 	--color-title-1: #2D2926; /* Black */
 	--color-title-2: #A62C2B; /* Metallic Red */
 	--color-title-3: #A62C2B; /* Metallic Red */
@@ -220,6 +220,27 @@ footer {
 #home-research.banner span {
 	color: var(--color-dark-text);
 	margin-bottom: 16px;
+}
+
+p.title-section{
+	color: var(--color-title-2);
+	margin-bottom: 32px;
+}
+
+p.title-large {
+	max-width: 672px;
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+	/*color: var(--color-title-2);*/
+	letter-spacing: -.04rem;
+	font-size: 3.5rem;
+	line-height: 1;
+}
+
+p.title-small {
+	max-width: 960px;
+	font-size: 1.25rem;
+	line-height: 1.5;
 }
 
 .banner img {

@@ -9,11 +9,6 @@ export default {
     },
     template: `
     <main>
-	    <section class="banner">
-	    	<div class="banner-overlay">
-		    	<h1>Stress Response Type</h1>
-		    </div>
-	    </section>
 	    <section class="body-container">
 		    <section class="wrapper-horizontal">
 		    	<article>

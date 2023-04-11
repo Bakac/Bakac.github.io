@@ -20,18 +20,15 @@ export default {
   	},
 	template: `
 		<main>
-			<section class="banner">
-				<div class="banner-overlay">
-					<h1>Assessments</h1>
-				</div>
-			</section>
 			<section class="body-container flex-stack">
 				<section class="first-box">
 					<div class="card">
 						<div class="wrapper-horizontal flex-box">
 							<div class="flex-60">
-								<h2>Assessing responses to challenges in different life stages</h2>
-								<p>How we view ourselves determines our reactions to stress in different situations, from childhood to adulthood, as a parent or as a partner in inimate relationship. These reactions reflect understanding of our relationship with others and the self, and the underlying cogitive structure that comprises our self-representations. Below are the assessments we developed and used in research. We are also developing some self-assessment tools to assess responses to stress that is common in different life stages. </p>
+								<p class="title-section">Assessments</p>
+								<p class="title-large">Our reactions to stress in different situations reveal who we are</p>
+								<p class="title-small">These reactions reflect our understanding of relationship with others and the self, and the underlying cogitive structure that comprises our self-representations.</p>
+								<p class="title-small">Below are the assessments we developed and used in research, which covers common stressful situations in different life stages. We are also developing some self-assessment tools to assess responses to stress that is common in different life stages. </p>
 							</div>
 						</div>
 					</div>

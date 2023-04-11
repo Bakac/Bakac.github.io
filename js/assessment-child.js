@@ -9,11 +9,6 @@ export default {
     },
     template: `
     <main>
-	    <section class="banner">
-	    	<div class="banner-overlay">
-		    	<h1>Child's Self-representation</h1>
-		    </div>
-	    </section>
 	    <section class="body-container">
 		    <section class="wrapper-horizontal">
 							<div class="flex-box">
