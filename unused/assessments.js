@@ -27,42 +27,72 @@ export default {
 							<div class="flex-60">
 								<p class="title-section">Assessments</p>
 								<p class="title-large">Our reactions to stress in different situations reveal who we are</p>
-								<p class="title-small">Therefore, through understanding these reactions, it is possible understanding how we relate to others and the self, and the underlying cogitive structure that comprises our self-representations.</p>
+								<p class="title-small">These reactions reflect our understanding of relationship with others and the self, and the underlying cogitive structure that comprises our self-representations.</p>
 								<p class="title-small">Below are the assessments we developed and used in research, which covers common stressful situations in different life stages. We are also developing some self-assessment tools to assess responses to stress that is common in different life stages. </p>
 							</div>
 						</div>
 					</div>
+				</section>
 
-					<div class="wrapper-horizontal flex-box gap-64">
-						<div class="flex-60">
-							<div class="card">
+				<section class="dark">
+					<div class="card">
+						<div class="wrapper-horizontal flex-box">
+							<div class="flex-60">
 								<h2>For adults in response to stressful events</h2>
-								<img class="img-center max-height-300" src="./img/assessment-stress.webp" width="400" style="margin: 2rem auto">
 								<p>The symptoms we experience after a stressful event vary from person to person. Some people will think of the event over and over again, while others will frequently re-experience the event. What is your stress response type?</p>
 								<button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=assessment-stress')">Learn more →</span>
 							</div>
 
-							<div class="card">
-								<h2>For parents in response to child's stress</h2>
-								<img class="img-center max-height-300" src="./img/assessment-parent.webp" width="400" style="margin: 3rem auto">
-								<p>When parents see their children in stress, they may respond in different ways. For example, they may minimize the stress, focusing on problem-solving, or focusing on children emotions. How do these tendencies affect children's social development?</p>
-								<button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=assessment-parent')">Learn more →</span>
+							<div class="flex-40">
+								<img class="img-center max-height-300" src="./img/assessment-stress.webp" width="516">
 							</div>
 						</div>
+					</div>
+				</section>
 
-						<div class="flex-60">
-							<div class="card">
+				<section>
+					<div class="card">
+						<div class="wrapper-horizontal flex-box flex-box-reverse">
+							<div class="flex-60">
 								<h2>For couples in response to relationship conflicts</h2>
-								<img class="img-center max-height-300" src="./img/assessment-couple.webp" width="400" style="margin: 3rem auto">
 								<p>(Under construction; Wait for Yimei's work)</p>
 								<button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=assessment-couple')">Learn more →</span>
 							</div>
 
-							<div class="card">
+							<div class="flex-40">
+								<img class="img-center max-height-300" src="./img/assessment-couple.webp" width="516">
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="dark">
+					<div class="card">
+						<div class="wrapper-horizontal flex-box">
+							<div class="flex-60">
+								<h2>For parents in response to child's stress</h2>
+								<p>When parents see their children in stress, they may respond in different ways. For example, they may minimize the stress, focusing on problem-solving, or focusing on children emotions. How do these tendencies affect children's social development?</p>
+								<button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=assessment-parent')">Learn more →</span>
+							</div>
+
+							<div class="flex-40">
+								<img class="img-center max-height-300" src="./img/assessment-parent.webp" width="516">
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<div class="card">
+						<div class="wrapper-horizontal flex-box flex-box-reverse">
+							<div class="flex-60">
 								<h2>For children in response to other minds</h2>
-								<img class="img-center max-height-300" src="./img/assessment-child.webp" width="400" style="margin: 3rem auto">
 								<p>Many mental abilities for understanding others are built upon one's knowledge of the self. Children are in a critical period of self development. How do their self-representations affect their organization of social information and related social abilities?</p>
 								<button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=assessment-child')">Learn more →</span>
+							</div>
+
+							<div class="flex-40">
+								<img class="img-center max-height-300" src="./img/assessment-child.webp" width="516">
 							</div>
 						</div>
 					</div>
