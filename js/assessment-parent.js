@@ -11,16 +11,25 @@ export default {
     <main>
 	    <section class="body-container">
 		    <article class="wrapper-horizontal">
-							<div class="flex-box">
-								<div class="flex-40">
-									<span class="toggleBtn highlight" @click.prevent="$emit('clickPage', './?page=assessments')"><i class="fa fa-chevron-left toggle-icon"></i>Back</span>
-								</div>
-							</div>
+				<div class="flex-box">
+					<div class="flex-40">
+						<span class="toggleBtn highlight" @click.prevent="$emit('clickPage', './?page=assessments')"><i class="fa fa-chevron-left toggle-icon"></i>Back</span>
+					</div>
+				</div>
 
 				<div class="margin-top-64">
-			    	<h2>When your child is under stress…</h2>
-			    	<p>Imagine that you are playing a game with your child. You find that your child is having some difficulties with certain part of the game. What do you usually do, feel, and think?</p>
-			    	<p>Different parents may respond to their children differently. Some parents tend to focus on the game and teach their children how to solve the problems step by step. Some parents focus on the emotional distress of their children and comfort them. Still, some parents think it is normal for their children to experience distress, giving them rooms for self-exploration.</p>
+								<p class="title-section">Assessments for parents</p>
+								<p class="title-large">What do you do when your child is under stress?</p>
+								<p class="title-small">Imagine that you are playing a game with your child. You find that your child is having some difficulties with certain part of the game and he feels distressed. What do you usually do, feel, and think?</p>
+								<p>[A drawing from Peanut]</p>
+
+					<h2>Which type of person you are?</h2>
+			    	<p>Most parents love their children. Every parent develops their own way to respond to their children's stress. Below are the most common types of responses: 
+			    	<ul>
+			    		<li>As they care about their children so much, they feel a great sense of responsibility for </li>
+			    		<li>Some parents tend to focus on the game and teach their children how to solve the problems step by step.</li>
+			    		<li>Some parents focus on the emotional distress of their children and comfort them. </li>
+			    	</ul>
 			    	<p>The unique style each parent (or primary caregiver) adopts to interact with children greatly affect their socioemotional development. For example, children may learn about themselves regarding what resources they have when facing stress, whether they should seek help, and how to regulate their emotions. This knowledge shapes their self-identities and guides their ways to relate to others under stress.</p>
 
 			    	<h2>Assessing parental reactions to child’s stress</h2>

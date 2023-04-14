@@ -235,6 +235,7 @@ p.title-large {
 	letter-spacing: -.04rem;
 	font-size: 3.5rem;
 	line-height: 1;
+	margin-bottom: 0.75em; /* Fix for article p margin */
 }
 
 p.title-small {
