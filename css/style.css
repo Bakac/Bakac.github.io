@@ -291,9 +291,21 @@ p ~ .home-btn {
 	margin-top: 16px;
 }
 
-.home-btn:hover, .idea-btn:hover {
+.home-btn:hover, .idea-btn:hover, .assess-btn:hover {
 	border: 2px solid var(--color-dark-text-hover);
 	color: var(--color-dark-text-hover);
+}
+
+.assess-btn {
+	display: inline-block;
+	padding: 10px;
+	border: 2px solid var(--color-dark-text);
+	width: 180px;
+	height: 140px;
+	color: var(--color-dark-text);
+	text-align: center;
+	border-radius: 6px;
+	transition: border .3s, color .3s;
 }
 
 .idea-btn {
@@ -324,7 +336,7 @@ p ~ .home-btn {
 }
 
 .additional-info {
-	margin-top: 24px;
+	margin-top: 48px;
 	border: 2px solid var(--color-hightlight-text);
 	border-radius: 6px;
 	padding: 12px;
@@ -335,9 +347,9 @@ p ~ .home-btn {
 	color: var(--color-hightlight-text);
 }
 
-.additional-info > p {
+/*.additional-info > p {
 	margin-bottom: 0.2em;
-}
+} */
 
 /* navbar */
 nav {
