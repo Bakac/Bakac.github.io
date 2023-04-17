@@ -65,7 +65,7 @@ export default {
 			    	<div class="flex-box margin-top-64">
 			    		<button class="assess-btn" @click.prevent="$emit('clickPage', './?page=people')">Find our CPs for training</button>
 			    		<button class="assess-btn" @click.prevent="$emit('clickPage', './?page=joinus')">Join our research studies</button>
-			    	</p>
+			    	</div>
 			    </div>
 		    </article>
 	    </section>
