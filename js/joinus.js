@@ -46,7 +46,7 @@ export default {
               <div class="flex-60">
                 <h2>Student Volunteers</h2>
                 <p>We are looking for student volunteers who are passionate to learn more about psychopathology and promote mental health. Ideally, student volunteers should commit at least 8 hours per week to various lab tasks, such as data collection, data entry, audio transcription, and literature review.</p>
-                <p>If you are interested, please write to us about yourselves and your research interest, together with your CV and latest transcript. Please send them to Harris (<span class="highlight">harris.cdclab@gmail.com</span>) or Frankie (<span class="highlight">frankie.cdclab@gmail.com</span>).</p>
+                <p>If you are interested, please write to us about yourselves and your research interest, together with your CV and latest transcript. Please send them to Harris (<span class="highlight">harris.cdclab@gmail.com</span>) or Frankie (<span class="highlight">frankie.cdclab@gmail.com</span>). Please note that only students who plan to work for a long period of time (e.g., over 1 year) will be considered. </p>
               </div>
 
               <div class="flex-40">
@@ -60,7 +60,8 @@ export default {
               <div class="flex-60">
                 <h2>Prospective Students and Staff</h2>
                 <p>We welcome prospective research students (M.Phil., Ph.D.), clinical students (M.S.Sc., Psy.D.), and taught degree students (B.S.Sc., M.A.) who want to complete their theses/dissertations in this laboratory to approach us for further details.</p>
-                <p>If you are interested in joining us as a research staff, you can refer to the website of the Human Resources Office (<span class="highlight">https://www.hro.cuhk.edu.hk/en-gb/career/career-opportunities</span>). We will post an advertisement on the website if there is a job vacancy.</p>
+                <p>If you are interested in joining us as a research staff, you can refer to the <a href="https://www.hro.cuhk.edu.hk/en-gb/career/career-opportunities" target="_blank">Human Resources Office website</a>. We will post an advertisement on the website if there is a job vacancy.</p>
+                <p>** We currently have one vacancy for Junior Research Assistant / Research Assistant, with its application ending at May 7, 2023. <a href="https://cuhk.taleo.net/careersection/cu_career_non_teach/jobdetail.ftl?job=230000YF" target="_blank">Click here for details</a>. </p>
               </div>
 
               <div class="flex-40">
