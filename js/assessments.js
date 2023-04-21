@@ -55,7 +55,7 @@ export default {
 								<h2>For couples in response to relationship conflicts</h2>
 								<img class="img-center max-height-300" src="./img/assessment-couple.webp" width="400" style="margin: 3rem auto">
 								<p>When conflicts arise in intimate relationship, the responses of our partner and ourselves affect one another, and the relationship quality in the long run. Do you think you are responsive to your partner's needs? How does your partner think?</p>
-								<button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=assessment-couple')">Learn more →</span>
+								<button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=assessment-couple1')">Learn more →</span>
 							</div>
 
 							<div class="card" style="margin-bottom: 0">
