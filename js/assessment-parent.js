@@ -21,7 +21,7 @@ export default {
 					<p class="title-section">Assessments for parents</p>
 					<p class="title-large">What do you do when your child is under stress?</p>
 					<p class="title-small">Imagine that you are playing a game with your child. You find that your child is having some difficulties with certain part of the game and feeling distressed. At this moment, what do you usually do, feel, and think?</p>
-					<p style="width: 600px; height: 300px; border: 1px solid #000; margin: 3rem auto; text-align: center">[A drawing from Peanut]</p>
+					<div><img src="./img/assessment-parent-banner.gif" width="600" style="margin: 3rem auto"></div>
 
 					<h2>Three common types of responses</h2>
 			    	<p>Most parents love their children. Every parent develops their own way to respond to their children's stress. Below are the most common types of responses: </p>
@@ -29,7 +29,7 @@ export default {
 			    	<h3>1. Focus on own distress</h3>
 		            <div class="flex-box">
 		              <div class="flex-250">
-		                <p style="width: 250px; height: 250px; border: 1px solid #000; ">[A drawing from Peanut]</p>
+		                <img src="./img/assessment-parent-own.jpeg" width="250">
 		              </div>
 		              <div class="flex-60">
 		                <p>As parents care about their child so much, they may feel a great sense of responsibility for the distress that their child is experiencing. Overwhelmed by the followed feelings, they may continue to think about themselves for a prolonged period and occastionally overlook the needs of the child who currently needs help. </p>
