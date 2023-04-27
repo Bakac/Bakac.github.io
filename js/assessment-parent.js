@@ -29,7 +29,7 @@ export default {
 			    	<h3>1. Focus on own distress</h3>
 		            <div class="flex-box">
 		              <div class="flex-250">
-		                <img src="./img/assessment-parent-own.jpeg" width="250">
+		                <img src="./img/assessment-parent-own.webp" width="250">
 		              </div>
 		              <div class="flex-60">
 		                <p>As parents care about their child so much, they may feel a great sense of responsibility for the distress that their child is experiencing. Overwhelmed by the followed feelings, they may continue to think about themselves for a prolonged period and occastionally overlook the needs of the child who currently needs help. </p>
