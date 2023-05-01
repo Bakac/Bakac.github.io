@@ -54,7 +54,7 @@ export default {
 							<div class="card">
 								<h2>For couples in response to relationship conflicts</h2>
 								<img class="img-center max-height-300" src="./img/assessment-couple.webp" width="400" style="margin: 3rem auto">
-								<p>A relationship is a two-way street. The ways you and your partner treat each other influence each other and the bonding in-between. What do you do when conflicts arise and how does it determine the relationship quality in the long run?</p>
+								<p>A relationship is a two-way street. The ways you and your partner treat each other influence each other and the bonding in-between. How do you usually relate to your partner and how does it determine the relationship quality in the long run?</p>
 								<button class="home-btn center-align" @click.prevent="$emit('clickPage', './?page=assessment-couple')">Learn more →</span>
 							</div>
 

@@ -32,7 +32,7 @@ export default {
 		                <p style="width: 250px; height: 250px; border: 1px solid #000; ">[A drawing]</p>
 		              </div>
 		              <div class="flex-60">
-		                <p>Text</p>
+		                <p>Collaborating individuals tend to have a cooperative and problem-solving approach to relationships. They actively work with their partners to find mutually beneficial solutions to any issues that may arise. They are good at communicating their thoughts and feelings and are willing to compromise to reach a solution that satisfies both partners.</p>
 		              </div>
 		            </div>
 
@@ -42,7 +42,7 @@ export default {
 		                <p style="width: 250px; height: 250px; border: 1px solid #000; ">[A drawing]</p>
 		              </div>
 		              <div class="flex-60">
-		                <p>Text</p>
+		                <p>Accommodating individuals tend to prioritize their partner's needs and desires over their own. They may be very nurturing and caring, and they may avoid conflict to maintain harmony in the relationship. They may also struggle with setting boundaries and standing up for themselves, which can lead to resentment over time.</p>
 		              </div>
 		            </div>
 
@@ -52,7 +52,7 @@ export default {
 		                <p style="width: 250px; height: 250px; border: 1px solid #000; ">[A drawing]</p>
 		              </div>
 		              <div class="flex-60">
-		                <p>Text</p>
+		                <p>Avoiding individuals tend to avoid conflict or emotional intimacy in their relationships. They may be distant or detached from their partners and may struggle to communicate their feelings. They may also prioritize their independence and personal space over their relationship, which can create a sense of distance between them and their partner.</p>
 		              </div>
 		            </div>
 
@@ -62,9 +62,12 @@ export default {
 		                <p style="width: 250px; height: 250px; border: 1px solid #000; ">[A drawing]</p>
 		              </div>
 		              <div class="flex-60">
-		                <p>Text</p>
+		                <p>Competing individuals tend to externalize the responsibility of conflicts and blame their partners for any issues that arise in the relationship. They may have a strong sense of dominance over their partner and prioritize their own needs over their partner's. As a result, they may be easily irritated when things do not come out as they expect and less willing to compromise as they think it is not their problem. </p>
 		              </div>
 		            </div>
+
+		            <h2>Knowing your interaction style</h2>
+			    	<p class="margin-bottom-40">We are currently developing a set of questionnaires that can assess your interaction with your partner. Please stay tuned for any updates.<br></p>
 			    </div>
 		    </article>
 	    </section>
