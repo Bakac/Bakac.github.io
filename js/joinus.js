@@ -61,7 +61,7 @@ export default {
                 <h2>Prospective Students and Staff</h2>
                 <p>We welcome prospective research students (M.Phil., Ph.D.), clinical students (M.S.Sc., Psy.D.), and taught degree students (B.S.Sc., M.A.) who want to complete their theses/dissertations in this laboratory to approach us for further details.</p>
                 <p>If you are interested in joining us as a research staff, you can refer to the <a href="https://www.hro.cuhk.edu.hk/en-gb/career/career-opportunities" target="_blank">Human Resources Office website</a>. We will post an advertisement on the website if there is a job vacancy.</p>
-                <p>** We currently have one vacancy for Junior Research Assistant / Research Assistant, with its application ending at May 7, 2023. <a href="https://cuhk.taleo.net/careersection/cu_career_non_teach/jobdetail.ftl?job=230000YF" target="_blank">Click here for details</a>. </p>
+                <!-- <p>** We currently have one vacancy for Junior Research Assistant / Research Assistant, with its application ending at May 7, 2023. <a href="https://cuhk.taleo.net/careersection/cu_career_non_teach/jobdetail.ftl?job=230000YF" target="_blank">Click here for details</a>. </p> -->
               </div>
 
               <div class="flex-40">

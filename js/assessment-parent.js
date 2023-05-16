@@ -21,7 +21,7 @@ export default {
 					<p class="title-section">Assessments for parents</p>
 					<p class="title-large">What do you do when your child is under stress?</p>
 					<p class="title-small">Imagine that you are playing a game with your child. You find that your child is having some difficulties with certain part of the game and feeling distressed. At this moment, what do you usually do, feel, and think?</p>
-					<div><img src="./img/assessment-parent-banner.gif" width="600" style="margin: 3rem auto"></div>
+					<div><img src="./img/assessment-parent-banner.webp" width="600" style="margin: 3rem auto"></div>
 
 					<h2>Three common types of responses</h2>
 			    	<p>Most parents love their children. Every parent develops their own way to respond to their children's stress. Below are the most common types of responses: </p>
@@ -39,7 +39,7 @@ export default {
 		            <h3>2. Focus on solving the game</h3>
 		            <div class="flex-box">
 		              <div class="flex-250">
-		                <p style="width: 250px; height: 250px; border: 1px solid #000; ">[A drawing from Peanut]</p>
+		                <img src="./img/assessment-parent-problem.webp" width="250">
 		              </div>
 		              <div class="flex-60">
 		                <p>Being responsive to child's needs, some parents will focus on the challenges that their child is currently facing, and use their experiences to guide their child through the game step-by-step. Children may learn that asking for help is useful in future difficult situations. </p>
@@ -49,7 +49,7 @@ export default {
 		            <h3>3. Focus on child's distress</h3>
 		            <div class="flex-box">
 		              <div class="flex-250">
-		                <p style="width: 250px; height: 250px; border: 1px solid #000; ">[A drawing from Peanut]</p>
+		                <img src="./img/assessment-parent-child.webp" width="250">
 		              </div>
 		              <div class="flex-60">
 		                <p>Some parents will focus on the distress of their child, affirming them and giving them emotional support when necessary. Child may have a sense of connection with their parents and feel warm and being cared. </p>
