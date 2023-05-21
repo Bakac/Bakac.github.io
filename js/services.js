@@ -56,7 +56,7 @@ export default {
 
 					<section style="scroll-margin-top: 96px;" ref="container" class="dark">
 						<div class="card wrapper-horizontal">
-							<splide ref="slide" :options="{ type: 'slide', speed: 1500, autoHeight: true, arrows: false, pagination: false, drag: false, autoplay: false, lazyLoad: 'sequential' }" aria-label="Services">
+							<splide ref="slide" :options="{ type: 'slide', speed: 1500, autoHeight: true, arrows: false, pagination: false, drag: false, autoplay: false, lazyLoad: 'sequential', updateOnMove: true }" aria-label="Services">
 								<splide-slide>
 									<div class="slide-container">
 										<h2>Activities</h2>

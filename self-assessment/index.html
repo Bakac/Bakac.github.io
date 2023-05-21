@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<base href="/">
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-YEEQB4YFGG"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-YEEQB4YFGG');
+	</script>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Self-assessment for stress responses">
+	<title>自我評估 | 臨床心理科學實驗室 | 香港中文大學</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Bebas+Neue&display=swap">
+	<link  rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap">
+	<link rel="stylesheet" href="./css/style.css">
+
+	<link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="./img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#00aba9">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body class="chinese-font">
+	<script type="module">
+		import { createApp } from 'https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.esm-browser.prod.min.js'
+		import SaStress from './js/sa-stress.js'
+		import SaCouple from './js/sa-couple.js'
+		import SaCoupleResults from './js/sa-couple-results.js'
+
+		let urlParams = new URLSearchParams(window.location.search);
+		let page = urlParams.get('page');
+		const pages = ['sa-stress', 'sa-couple', 'sa-couple-results'];
+
+		const app = createApp({
+			components: {
+				SaStress, SaCouple, SaCoupleResults
+			},
+			data() {
+				return {
+					labname: '香港中文大學臨床心理科學實驗室', 
+					currentPage: pages.includes(page) ? page : 'sa-stress', 
+				}
+			}, 
+			methods: {
+				updatePage(href) {
+					let page = href.split("=")[1];
+					let change = pages.includes(page) && (this.currentPage != page);
+
+					if (change) {
+						this.currentPage = page;
+						history.pushState({page: this.currentPage}, null, href);
+					}
+					document.getElementById("main").scrollTo({ top: 0, behavior: 'smooth' })
+				}
+			}, 
+			created() {
+				window.onpopstate = (event) => {
+					this.currentPage = pages.includes(event.state.page) ? event.state.page : this.currentPage;
+					document.getElementById("main").scrollTo({ top: 0, behavior: 'smooth' })
+				};
+			}
+		});
+
+		app.mount('#main');
+	</script>
+
+	<div id="main">
+		<!-- <header>
+			<component is="NavBar" @click-page="(href) => updatePage(href)"></component>
+		</header> -->
+
+		<Transition name="fade" mode="out-in">
+			<component :is="currentPage" @click-page="(href) => updatePage(href)"></component>
+		</Transition>
+
+		<footer v-cloak>
+			<p>{{new Date().getFullYear()}} &copy; <a href="https://cdclab.github.io" target="_blank">{{labname}}</a></p>
+		</footer>
+	</div>
+</body>
+</html>

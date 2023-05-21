@@ -121,6 +121,10 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+.chinese-font {
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
 #main {
 	display: flex;
 	flex-direction: column;
@@ -764,6 +768,50 @@ section#gallery figure:hover .overlay {
 
 .splide__list {
   transition: height .5s;
+}
+
+/* Splide customisation */
+.is-active {
+	opacity: 100%;
+}
+
+.is-prev, .is-next {
+	opacity: 20%;
+}
+
+.splide__slide {
+	transition: opacity 0.5s ease-in-out;
+}
+
+/* Survey Style */
+.sv-radio {
+  display: none;
+}
+
+.sv-label {
+	display: block;
+  position: relative;
+  padding: 16px;
+	border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  background-color: rgba(0,0,0,.06);
+	transition: all 0.3s ease;
+	font-size: 120%;
+	margin-top: 12px;
+} 
+
+.sv-radio:checked:checked + .sv-label.yellow {
+  background-color: #FCD200;
+} 
+
+.sv-radio:checked:checked + .sv-label.pink {
+  background-color: #FFB3C1;
+} 
+
+.splide .splide__arrows--ttb .splide__arrow {
+	left: 50%;
+    transform: translate(-50%);
 }
 
 /* */
