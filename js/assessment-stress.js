@@ -21,13 +21,13 @@ export default {
 					<p class="title-section">Assessments for adults</p>
 					<p class="title-large">What is your general responses to a recent stressful event?</p>
 					<p class="title-small">Imagine that you have performed badly in an important interview. In what way will this event affect you for the following days?</p>
-					<p style="width: 600px; height: 300px; border: 1px solid #000; margin: 3rem auto; text-align: center">[A photo/drawing]</p>
+					<div><img src="./img/assessment-stress-banner.webp" width="600" style="margin: 3rem auto"></div>
 
-			    	<h2>Four common types of responses</h2>
+			    	<h2>Common types of stress responses</h2>
 			    	<h3>1. Preoccupation with self-doubt and worries</h3>
 		            <div class="flex-box">
 		              <div class="flex-250">
-		                <p style="width: 250px; height: 250px; border: 1px solid #000; ">[A drawing]</p>
+		                <img src="./img/assessment-stress-preoccupation.webp" width="250">
 		              </div>
 		              <div class="flex-60">
 		                <p>Some people will have a sense of failure after the interview, which evokes thoughts of self-doubt and worries related to the causes and consequences of failing the interview. This is common among people who tend to internalize responsibility. When failures accumunlate, people may link themselves to failure in their autobiographical knowledge, developing an overall feeling of incompetence and distancing themselves from the external world, which may lead to depression. </p>
@@ -37,7 +37,7 @@ export default {
 			    	<h3>2. Flashbacks of stressful moments</h3>
 		            <div class="flex-box">
 		              <div class="flex-250">
-		                <p style="width: 250px; height: 250px; border: 1px solid #000; ">[A drawing]</p>
+		                <img src="./img/assessment-stress-flashback.webp" width="250">
 		              </div>
 		              <div class="flex-60">
 		                <p>While some people may not think of the interviews over and over, at some times the stressful moments come up in mind again, as if they have re-experienced them in a vivid and detailed manner. These emotion-evoking memories are often not sufficiently processed and can be retrieved only in their raw form without proper elaboration to one's autobiographical memory. People with fragmented memory may be more vulnerable to intrusions and flashbacks of highly stressful moments, which is a hallmark of post-traumatic stress disorder and panic attacks.</p>
@@ -47,14 +47,14 @@ export default {
 			    	<h3>3. More complex symptoms</h3>
 		            <div class="flex-box">
 		              <div class="flex-250">
-		                <p style="width: 250px; height: 250px; border: 1px solid #000; ">[A drawing]</p>
+		                <img src="./img/assessment-stress-complex.webp" width="250">
 		              </div>
 		              <div class="flex-60">
 		                <p>In more complex situations, individuals may develop extreme self-rejecting associations and feelings of shame. Their persistent struggles to stablize themselves may lead to conditions such as somatization, dissociation, and personality dysfunctions. </p>
 		              </div>
 		            </div>
 
-			    	<h3>4. Spontaneous recovery</h3>
+			    	<!-- <h3>4. Spontaneous recovery</h3>
 		            <div class="flex-box">
 		              <div class="flex-250">
 		                <p style="width: 250px; height: 250px; border: 1px solid #000; ">[A drawing]</p>
@@ -62,7 +62,7 @@ export default {
 		              <div class="flex-60">
 		                <p>While people described above may have prolonged issues, some others can recover from the failure after a short period of distress and are ready to take up the next challenge in their lives. </p>
 		              </div>
-		            </div>
+		            </div> -->
 
 			    	<p class="additional-info">
 			    		<h2 class="additional-title">Responses to stress and self-representation</h2>
