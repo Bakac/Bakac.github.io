@@ -19,15 +19,15 @@ export default {
 
 				<div class="margin-top-64">
 					<p class="title-section">Assessments for couples</p>
-					<p class="title-large">How do you usually interact with your partner?</p>
-					<p class="title-small">How do you usually respond to the needs of your partner? What will you do when conflicts arise between both of you?</p>
+					<p class="title-large">How do you usually respond to your partner when conflicts arise?</p>
+					<p class="title-small">Imagine that you and your partner are in a conflict: During a trip, while you want to go to Place A, your partner wants to go to Place B instead. What would you do?</p>
 					<div><img src="./img/assessment-couple-banner.webp" width="600" style="margin: 3rem auto"></div>
 
 			    	<h2>Four common types of interaction style</h2>
-			    	<p>How we usually respond to our partner can be categorized into four common types. They reveal whether we want to approach or avoid connection with others and our perception of the power structure in the relationship. </p>
+			    	<p>How we usually respond to our partner can be categorized into four common types. They reveal whether we want to approach or avoid connection with close others and our perception of the power structure in the relationship. </p>
 
 			    	<h3>1. Collaborating</h3>
-		            <div class="flex-box">
+		            <div class="flex-box gap-0">
 		              <div class="flex-250">
 		                <img src="./img/assessment-couple-collaborating.webp" width="250">
 		              </div>
@@ -37,7 +37,7 @@ export default {
 		            </div>
 
 			    	<h3>2. Accommodating</h3>
-		            <div class="flex-box">
+		            <div class="flex-box gap-0">
 		              <div class="flex-250">
 		                <img src="./img/assessment-couple-accommodating.webp" width="250">
 		              </div>
@@ -47,7 +47,7 @@ export default {
 		            </div>
 
 			    	<h3>3. Avoiding</h3>
-		            <div class="flex-box">
+		            <div class="flex-box gap-0">
 		              <div class="flex-250">
 		                <img src="./img/assessment-couple-avoiding.webp" width="250">
 		              </div>
@@ -57,7 +57,7 @@ export default {
 		            </div>
 
 			    	<h3>4. Competing</h3>
-		            <div class="flex-box">
+		            <div class="flex-box gap-0">
 		              <div class="flex-250">
 		                <img src="./img/assessment-couple-competing.webp" width="250">
 		              </div>
@@ -67,7 +67,7 @@ export default {
 		            </div>
 
 		            <h2>Knowing your interaction style</h2>
-			    	<p class="margin-bottom-40">We are currently developing a set of questionnaires that can assess your interaction with your partner. Please stay tuned for any updates.<br></p>
+			    	<p class="margin-bottom-40">We are currently developing a set of questionnaires that can assess your interaction style with your partner. Please stay tuned for any updates.<br></p>
 			    </div>
 		    </article>
 	    </section>

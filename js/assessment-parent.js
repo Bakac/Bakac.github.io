@@ -27,7 +27,7 @@ export default {
 			    	<p>Most parents love their children. Every parent develops their own way to respond to their children's stress. Below are the most common types of responses: </p>
 
 			    	<h3>1. Focus on own distress</h3>
-		            <div class="flex-box">
+		            <div class="flex-box gap-0">
 		              <div class="flex-250">
 		                <img src="./img/assessment-parent-own.webp" width="250">
 		              </div>
@@ -37,7 +37,7 @@ export default {
 		            </div>
 
 		            <h3>2. Focus on solving the game</h3>
-		            <div class="flex-box">
+		            <div class="flex-box gap-0">
 		              <div class="flex-250">
 		                <img src="./img/assessment-parent-problem.webp" width="250">
 		              </div>
@@ -47,7 +47,7 @@ export default {
 		            </div>
 
 		            <h3>3. Focus on child's distress</h3>
-		            <div class="flex-box">
+		            <div class="flex-box gap-0">
 		              <div class="flex-250">
 		                <img src="./img/assessment-parent-child.webp" width="250">
 		              </div>
@@ -63,7 +63,7 @@ export default {
 			    	<p>We observe the reactions of the parent in a naturalistic way, and rate parental response style on several aspects. This can provide measures that is more objective than parent’s self-report of own parenting behavior. If you are a clinician, our laboratory provides trainings of administering the tangram task. If you are a parent who wants your child to have a taste of this assessment, you can sign up for our parent-child research project.</p>
 
 			    	<div class="flex-box margin-top-64">
-			    		<button class="assess-btn" @click.prevent="$emit('clickPage', './?page=people')">Find our CPs for training</button>
+			    		<button class="assess-btn" @click.prevent="$emit('clickPage', './?page=people')">Find our team for training</button>
 			    		<button class="assess-btn" @click.prevent="$emit('clickPage', './?page=joinus')">Join our research studies</button>
 			    	</div>
 			    </div>

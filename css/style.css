@@ -340,7 +340,7 @@ p ~ .home-btn {
 }
 
 .additional-info {
-	margin-top: 48px;
+	margin-top: 64px;
 	border: 2px solid var(--color-hightlight-text);
 	border-radius: 6px;
 	padding: 12px;
@@ -707,6 +707,10 @@ section#gallery figure:hover .overlay {
 .width-200 {
 	display: block;
 	max-width: 200px;
+}
+
+.gap-0 {
+	gap: 0px;
 }
 
 .gap-20 {

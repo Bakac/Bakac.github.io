@@ -41,12 +41,7 @@ export default {
 
 			    	<h3>What can we know from the story?</h3>
 			    	<p>Story 1 is a more elaborated story that has a positive ending. The characters are well-defined and act in a coherent manner. The actions of the characters are organized by their emotions and motivations. The temporal order of the story is also clear. It may hint on that the storyteller's experience with parents are generally positive and she can make use of emotions of others as a principle to understand another person in daily social situations. </p>
-
 			    	<p>In contrast, Story 2 is somehow fragmented and ends negatively. The storyteller can tell some emotions of the characters, but the intentions and the reasons are not spoken. For dad's action, the emotions and motivations are also omitted. The storyteller may have grown up in a controlling environment and it may be hard for him/her to understand others' behaviour and emotions. </p>
-
-
-
-
 
 					<p class="additional-info">
 			    		<h3 class="additional-title">What more can be revealed?</h3>
@@ -66,7 +61,7 @@ export default {
 
 
 			    	<div class="flex-box margin-top-64">
-			    		<button class="assess-btn" @click.prevent="$emit('clickPage', './?page=people')">Find our CPs for training</button>
+			    		<button class="assess-btn" @click.prevent="$emit('clickPage', './?page=people')">Find our team for training</button>
 			    		<button class="assess-btn" @click.prevent="$emit('clickPage', './?page=joinus')">Join our research studies</button>
 			    	</div>
 			    </div>
