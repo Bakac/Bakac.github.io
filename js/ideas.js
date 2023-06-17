@@ -24,7 +24,7 @@ export default {
 
 				<h2>Our approaches</h2>
 		    	<p>Gaining insights from clinical practice about the underlying structure of sociocognitive functioning described above, we experiment with them in both clinical and non-clinical populations. We adopt a combination of methods to capture responses at different levels, which includes physiological measures, behavioral tests, observations, and introspective reports. Below shows our research framework and examples of relevant topics and phenomena that we are interested in:</p>
-		    	<div style="overflow: auto"><img src="./img/framework.webp" width="1920" style="margin: 3rem 0; min-width: 484px"></div>
+		    	<div style="overflow: auto"><img src="./img/idea-framework.webp" width="1920" style="margin: 3rem 0; min-width: 484px"></div>
 		    	<p class="margin-bottom-40">We strive to inform clinical case formulation with knowledge about the pathways underlying their dysfunctions. Driven by such value, we not only do studies in the laboratory, but also cooperate with service-providers in the healthcare setting in the hope of improving the existing practice for the clinical populations.</p>
 
 		    	<!-- <div class="margin-bottom-40">
