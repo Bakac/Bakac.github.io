@@ -1,0 +1,1 @@
+.yellow .survey-box,.yellow .instruction{background:var(--c-light-yellow)}.yellow .sv-button{background:var(--c-yellow)}.yellow .sv-text:focus{border:3px solid var(--c-yellow)}.yellow .sv-radio:checked:checked+.sv-label{background-color:var(--c-yellow)}
