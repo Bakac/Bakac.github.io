@@ -1,1 +1,0 @@
-import{d as a,j as r,c as t,a as n,n as c,o as _}from"./index-074a1f72.js";const l={class:"bar-container"},i=a({__name:"ColourBar",props:["percent","colour"],setup(o){const e=o;return r(s=>({"144357a2":e.colour})),(s,p)=>(_(),t("div",l,[n("div",{class:"bar",style:c("width: "+e.percent+"%")},null,4)]))}});export{i as _};

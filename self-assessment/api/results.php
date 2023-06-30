@@ -268,7 +268,7 @@ if ($data["section"] == 'stress_screen') {
 
 	$res["indi_state"] = ($result["mops_indi"] <= 4) ? 0 : (($result["mops_indi"] >= 9) ? 2 : 1);
 	$res["ctrl_state"] = ($result["mops_ctrl"] <= 3) ? 0 : (($result["mops_ctrl"] >= 6) ? 2 : 1);
-	$res["abus_state"] = ($result["sdq_pros"] <= 4) ? 0 : (($result["sdq_pros"] >= 8) ? 2 : 1);
+	$res["abus_state"] = ($result["mops_abus"] <= 4) ? 0 : (($result["mops_abus"] >= 8) ? 2 : 1);
 	$res["indi_percent"] = floor(($result["mops_indi"] / 18) * 100);
 	$res["ctrl_percent"] = floor(($result["mops_ctrl"] / 12) * 100);
 	$res["abus_percent"] = floor(($result["mops_abus"] / 15) * 100);
